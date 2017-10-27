@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-function(${1}) {
-    ${2}
-}
+findIndex((item) => {
+    return ${1};
+});
 ]]></content>
-     <tabTrigger>func_anonymous</tabTrigger>
+     <tabTrigger>findIndex</tabTrigger>
      <scope>source.js,text.html</scope>
 </snippet>

@@ -3,5 +3,5 @@
 console.log(${1});
 ]]></content>
      <tabTrigger>log</tabTrigger>
-     <scope>source.js,text.html,text.plain</scope>
+     <scope>source.js,text.html</scope>
 </snippet>

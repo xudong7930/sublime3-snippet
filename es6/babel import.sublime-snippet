@@ -1,9 +1,7 @@
 <snippet>
     <content><![CDATA[
-function(${1}) {
-    ${2}
-}
+import ${1} from '${2}';
 ]]></content>
-     <tabTrigger>func_anonymous</tabTrigger>
+     <tabTrigger>imp</tabTrigger>
      <scope>source.js,text.html</scope>
 </snippet>

@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-function(${1}) {
-    ${2}
-}
+find((item) => {
+    return ${1};
+});
 ]]></content>
-     <tabTrigger>func_anonymous</tabTrigger>
+     <tabTrigger>find</tabTrigger>
      <scope>source.js,text.html</scope>
 </snippet>
