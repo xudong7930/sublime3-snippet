@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+<link rel="stylesheet" href="https://ehd4.f3322.net/youtube/bootstrap337/css/bootstrap.min.css">
+]]></content>
+    <tabTrigger>bt_css</tabTrigger>
+    <scope>text.html,source.php</scope>
+</snippet>

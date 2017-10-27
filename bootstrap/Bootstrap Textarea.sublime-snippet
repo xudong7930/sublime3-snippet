@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+<textarea class="form-control" rows="3"></textarea>
+]]></content>
+    <tabTrigger>bt_textarea</tabTrigger>
+    <scope>source.php,text.html</scope>
+</snippet>

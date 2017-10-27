@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+class ${1} {
+
+    ${2}
+}
+]]></content>
+     <tabTrigger>class</tabTrigger>
+     <scope>source.js,text.html,text.plain</scope>
+</snippet>

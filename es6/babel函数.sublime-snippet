@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1} (${2}) {
+    ${3}
+}
+]]></content>
+     <tabTrigger>func</tabTrigger>
+     <scope>source.js,text.html,text.plain</scope>
+</snippet>

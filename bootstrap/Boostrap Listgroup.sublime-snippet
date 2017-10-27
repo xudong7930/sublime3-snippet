@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+<ul class="list-group">
+    @foreach (${1} as ${2})
+    <li class="list-group-item">
+        ${3}
+    </li>
+    @endforeach
+</ul>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>bt_listgroup</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php,text.html</scope>
+</snippet>

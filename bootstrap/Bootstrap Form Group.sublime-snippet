@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+<div class="form-group">
+    <label for="${1}" class="control-label">${2}:</label>
+    <input type="text" id="${1}" name="${3}" class="form-control" value="" />
+</div>
+]]></content>
+    <tabTrigger>form-group</tabTrigger>
+    <scope>source.php,text.html</scope>
+</snippet>

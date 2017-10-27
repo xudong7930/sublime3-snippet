@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+Route::${1:get}('${2}', '${3}Controller@${4}')->name('${5}');
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>routec</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+</snippet>
