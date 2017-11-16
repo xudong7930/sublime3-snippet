@@ -1,9 +1,10 @@
 <snippet>
     <content><![CDATA[
-class ${1} {
-    ${2}
+protected function ${1}(${2})
+{
+    ${3}
 }
 ]]></content>
-     <tabTrigger>class</tabTrigger>
+     <tabTrigger>mett</tabTrigger>
      <scope>source.php</scope>
 </snippet>

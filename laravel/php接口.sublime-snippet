@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-class ${1} {
+interface ${1} {
     ${2}
 }
 ]]></content>
-     <tabTrigger>class</tabTrigger>
+     <tabTrigger>inter</tabTrigger>
      <scope>source.php</scope>
 </snippet>

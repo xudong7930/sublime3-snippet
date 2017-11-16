@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+\$pdo = new PDO('mysql:host=127.0.0.1;dbname=test;port=3306', 'root', 'root');
+\$statement = \$pdo->prepare("${1}");
+\$statement->execute(${2:\$parameters});
+${3:\$data} = \$statement->fetchAll(PDO::FETCH_OBJ);
+]]></content>
+     <tabTrigger>pdo_mysql</tabTrigger>
+     <scope>source.php</scope>
+</snippet>

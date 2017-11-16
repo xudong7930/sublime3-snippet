@@ -1,9 +1,7 @@
 <snippet>
     <content><![CDATA[
-class ${1} {
-    ${2}
-}
+return view('${1}', ${2:compact('')});
 ]]></content>
-     <tabTrigger>class</tabTrigger>
+     <tabTrigger>la_view</tabTrigger>
      <scope>source.php</scope>
 </snippet>

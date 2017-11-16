@@ -1,9 +1,10 @@
 <snippet>
     <content><![CDATA[
-class ${1} {
-    ${2}
+public static function ${1}(${2})
+{
+    ${3}
 }
 ]]></content>
-     <tabTrigger>class</tabTrigger>
+     <tabTrigger>mets</tabTrigger>
      <scope>source.php</scope>
 </snippet>
