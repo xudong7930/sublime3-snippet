@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+foreach (range(0, ${1}) as \$item) {
+    ${2}
+}
+]]></content>
+     <tabTrigger>foreach_range</tabTrigger>
+     <scope>source.php</scope>
+</snippet>
