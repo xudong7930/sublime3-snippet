@@ -4,6 +4,6 @@ Route::group(['prefix'=>'${1}'], function () {
     ${2}
 });
 ]]></content>
-    <tabTrigger>routeg</tabTrigger>
+    <tabTrigger>rg</tabTrigger>
     <scope>source.php</scope>
 </snippet>

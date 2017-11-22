@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+public function ${1:table2}()
+{
+    return $this->hasOne(${2:model2}::class, '${3:table1.fk}');
+}
+]]></content>
+    <tabTrigger>el_hasone</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

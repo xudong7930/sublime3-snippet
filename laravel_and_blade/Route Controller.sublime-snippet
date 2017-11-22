@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+Route::${1:get}('${2}', '${3}Controller@${4}')->name('${5}');
+]]></content>
+    <tabTrigger>rc</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

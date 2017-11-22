@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
-\$table->timestamps();
+Route::resource('${1}', '${2}Controller');
 ]]></content>
-    <tabTrigger>fd_time</tabTrigger>
+    <tabTrigger>rr</tabTrigger>
     <scope>source.php</scope>
 </snippet>

@@ -1,7 +1,9 @@
 <snippet>
     <content><![CDATA[
-Route::resource('${1}', '${2}Controller');
+Route::${1:get}('${2}', function(${3}) {
+    ${4}
+});
 ]]></content>
-    <tabTrigger>router</tabTrigger>
+    <tabTrigger>rf</tabTrigger>
     <scope>source.php</scope>
 </snippet>
