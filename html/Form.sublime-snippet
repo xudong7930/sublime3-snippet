@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+<form action="${1}" method="${2:GET}">${3}</form>
+]]></content>
+    <tabTrigger>form</tabTrigger>
+    <scope>text.html</scope>
+</snippet>

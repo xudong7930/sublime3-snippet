@@ -3,5 +3,5 @@
 {{ csrf_field() }}
 ]]></content>
     <tabTrigger>bl_csrf</tabTrigger>
-    <scope>source.php,text.html</scope>
+    <scope>source.php</scope>
 </snippet>

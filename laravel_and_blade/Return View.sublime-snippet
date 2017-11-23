@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+return view('${1}')->with([${2}]);
+]]></content>
+    <tabTrigger>rv</tabTrigger>
+    <scope>source.php,text.html</scope>
+</snippet>

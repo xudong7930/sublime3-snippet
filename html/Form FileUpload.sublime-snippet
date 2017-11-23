@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+<form action="${1}" method="${2:GET}" enctype="multipart/form-data">${3}</form>
+]]></content>
+    <tabTrigger>meta:char</tabTrigger>
+    <scope>text.html</scope>
+</snippet>
