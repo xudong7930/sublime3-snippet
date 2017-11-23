@@ -2,7 +2,7 @@
     <content><![CDATA[
 public function ${1:table2}()
 {
-    return $this->hasMany(${2:model2}::class, '${3:table1.fk}');
+    return \$this->hasMany(${2:model2}::class, '${3:table1.fk}');
 }
 ]]></content>
     <tabTrigger>el_hasmany</tabTrigger>

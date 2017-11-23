@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+\$data = \$this->validate(\$request, [
+    '${2:name}' => 'required'
+]);
+\$model = ${1:Model}::update(\$data);
+]]></content>
+    <tabTrigger>fm_save</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+\$faker->numberBetween(${1:1,10})
+]]></content>
+    <tabTrigger>fk_number</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+${1:Model}:all()->random()->${2:id}
+]]></content>
+    <tabTrigger>fk_model</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

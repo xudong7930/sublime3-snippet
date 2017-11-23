@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+\$faker->randomElement([${1}])
+]]></content>
+    <tabTrigger>fk_random</tabTrigger>
+    <scope>source.php</scope>
+</snippet>
