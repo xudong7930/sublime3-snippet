@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+protected \$table = '${1}';
+]]></content>
+    <tabTrigger>el_table</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

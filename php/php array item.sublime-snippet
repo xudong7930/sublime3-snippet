@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-'${1}' => ${2},        
+'${1}' => ${2},
 ]]></content>
      <tabTrigger>ai</tabTrigger>
      <scope>source.php</scope>

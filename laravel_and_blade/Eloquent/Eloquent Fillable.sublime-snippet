@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+protected \$fillable = [${1}];
+]]></content>
+    <tabTrigger>el_fillable</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

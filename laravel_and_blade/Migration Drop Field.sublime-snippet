@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+\$table->softDeletes();
+]]></content>
+    <tabTrigger>fd_drop</tabTrigger>
+    <scope>source.php</scope>
+</snippet>
