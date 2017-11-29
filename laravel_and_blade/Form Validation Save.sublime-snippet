@@ -1,9 +1,14 @@
 <snippet>
     <content><![CDATA[
 \$data = \$this->validate(\$request, [
-    '${2:name}' => 'required'
+    'name' => 'required',${1}
 ]);
-\$model = ${1:Model}::update(\$data);
+${2:\$model}->fill(\$data);
+if (${2:\$model}->isClean()) {
+    // error reponse${3}
+}
+${2:\$model}->save();
+// success reponse${4}
 ]]></content>
     <tabTrigger>fm_save</tabTrigger>
     <scope>source.php</scope>
