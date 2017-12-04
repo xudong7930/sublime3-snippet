@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+if (\$request->has('${1}')) {
+    ${2}
+}
+]]></content>
+    <tabTrigger>req_has</tabTrigger>
+    <scope>source.php</scope>
+</snippet>
