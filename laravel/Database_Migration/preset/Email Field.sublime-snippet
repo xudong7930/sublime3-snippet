@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
-\$table->string('${1}', ${2:250});
+\$table->string('email', 30);
 ]]></content>
-    <tabTrigger>fd_str</tabTrigger>
+    <tabTrigger>fd_email</tabTrigger>
     <scope>source.php</scope>
 </snippet>
