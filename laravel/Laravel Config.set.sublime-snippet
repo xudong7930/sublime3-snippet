@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+Config::set('${1}', ${2})
+]]></content>
+    <tabTrigger>config.set</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

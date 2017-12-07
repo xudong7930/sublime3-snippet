@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+\$table->index([${1}]);
+]]></content>
+    <tabTrigger>fd_index</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

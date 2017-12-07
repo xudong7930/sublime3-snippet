@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+\$table->string('name')
+    ->nullable()
+    ->default('joker')
+    ->index()
+    ->unique()
+    ->primary()
+    ->signed()
+    ->unsigned();
+]]></content>
+    <tabTrigger>fd_sample</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

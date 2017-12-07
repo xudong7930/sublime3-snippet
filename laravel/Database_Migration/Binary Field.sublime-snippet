@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+\$table->binary('${1}');
+]]></content>
+    <tabTrigger>fd_binary</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

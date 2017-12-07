@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+\$table->unique([${1}]);
+]]></content>
+    <tabTrigger>fd_unique</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+\$table->foreign('${1:user_id}')
+    ->references('${2:id}')
+    ->on('${3:users}')
+    ->onDelete('cascade'|'restrict'|'set null'|'no action')
+    ->onUpdate('cascade'|'restrict'|'set null'|'no action');
+]]></content>
+    <tabTrigger>fd_fk</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

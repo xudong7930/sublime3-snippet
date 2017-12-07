@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+\$this->middleware('scope:${1}');
+]]></content>
+    <tabTrigger>mids</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

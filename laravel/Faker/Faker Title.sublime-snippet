@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+\$faker->title,
+]]></content>
+    <tabTrigger>fk_title</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

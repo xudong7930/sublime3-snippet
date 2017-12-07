@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+protected function tableTruncate()
+{
+    // protected \$tables = ['User' => 'users'];
+    // \$this->tableTruncate();
+    DB::statement('SET FOREIGN_KEY_CHECKS=0');
+    foreach (\$this->tables as \$model=>\$table) {
+        DB::table(\$table)->truncate();
+        \$model::flushEventListeners();
+    }
+    DB::statement('SET FOREIGN_KEY_CHECKS=1');
+}
+]]></content>
+    <tabTrigger>tb_clear</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

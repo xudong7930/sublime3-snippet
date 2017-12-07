@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+factory(${1:Model}::class, ${2:20})->create();
+]]></content>
+    <tabTrigger>fac</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

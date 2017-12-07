@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
-factory(${1:Model}::class, ${2:20})->create();
+\$this->middleware(${1});
 ]]></content>
-    <tabTrigger>fa</tabTrigger>
+    <tabTrigger>mid</tabTrigger>
     <scope>source.php</scope>
 </snippet>

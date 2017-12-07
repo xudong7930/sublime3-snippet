@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+\$table->engine = 'InnoDB | MyISAM';
+]]></content>
+    <tabTrigger>fd_engine</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

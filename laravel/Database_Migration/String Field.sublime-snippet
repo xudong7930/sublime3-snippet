@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-\$table->string('${1}');
+\$table->string('${1}', ${2:250});
 ]]></content>
     <tabTrigger>fd_string</tabTrigger>
     <scope>source.php</scope>

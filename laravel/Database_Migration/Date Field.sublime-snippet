@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+\$table->date('${1}');
+]]></content>
+    <tabTrigger>fd_date</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

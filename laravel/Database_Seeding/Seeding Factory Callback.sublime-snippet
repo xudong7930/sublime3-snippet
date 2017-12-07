@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
 factory(${1:Model}::class, ${2:20})->create()->each(function(${3:\$item}){
-    ${2}
+    ${4}
 });
 ]]></content>
-    <tabTrigger>fa_callback</tabTrigger>
+    <tabTrigger>fac_callback</tabTrigger>
     <scope>source.php</scope>
 </snippet>

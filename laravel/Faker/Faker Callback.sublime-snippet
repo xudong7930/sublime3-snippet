@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+function () {
+    \$ids = User::all()->pluck('id');
+    return \$faker->randomElement(\$ids->toArray());
+},
+]]></content>
+    <tabTrigger>fk_callback</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-\$table->foreign('${1:this_table_field}')->references('${2:that_table_field}')->on('${3:that_table}')->onDelete('cascade');
-]]></content>
-    <tabTrigger>fd_fk</tabTrigger>
-    <scope>source.php</scope>
-</snippet>

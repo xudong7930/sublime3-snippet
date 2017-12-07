@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+\$this->middleware('can:${1}');
+]]></content>
+    <tabTrigger>midc</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

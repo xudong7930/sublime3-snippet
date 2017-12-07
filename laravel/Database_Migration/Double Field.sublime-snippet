@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+\$table->double('${1:id}', ${2:number_length}, ${3:point_len});
+]]></content>
+    <tabTrigger>fd_double</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

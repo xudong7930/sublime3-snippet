@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+"files": [
+    "app/Acme/${1:file.php}"
+],
+]]></content>
+    <tabTrigger>load_file</tabTrigger>
+    <scope>source.json</scope>
+</snippet>
