@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-function () {
+function () use(\$faker) {
     \$ids = User::all()->pluck('id');
     return \$faker->randomElement(\$ids->toArray());
 },

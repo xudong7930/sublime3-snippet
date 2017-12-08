@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-public function ${1:table2}()
+public function ${1:blogs}()
 {
-    return \$this->hasMany(${2:model2}::class, '${3:table1.fk}');
+    return \$this->hasMany(${2:Blog}::class, '${3:foreign_key}', '${4:local_key}');
 }
 ]]></content>
     <tabTrigger>el_hasmany</tabTrigger>

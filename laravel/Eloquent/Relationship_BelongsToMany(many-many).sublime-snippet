@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+public function ${1:blogs}()
+{
+    return \$this->belongsToMany(${2:Blog}::class, '${3:中间表}', '${4:foreign_key}', '${5:locak_key}');
+}
+]]></content>
+    <tabTrigger>el_belong_many</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-public function ${1:table2}()
+public function ${1:profile}()
 {
-    return \$this->hasOne(${2:model2}::class, '${3:table1.fk}');
+    return \$this->hasOne(${2:Profile}::class, '${3:foreign_key}', '${4:local_key}');
 }
 ]]></content>
     <tabTrigger>el_hasone</tabTrigger>
