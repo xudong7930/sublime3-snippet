@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+public \$connection = '${1}';
+]]></content>
+    <tabTrigger>el_connection</tabTrigger>
+    <scope>source.php</scope>
+</snippet>
+

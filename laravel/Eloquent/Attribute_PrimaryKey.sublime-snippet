@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+public \$primaryKey = '${1}';
+]]></content>
+    <tabTrigger>el_pk</tabTrigger>
+    <scope>source.php</scope>
+</snippet>
