@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+public function set${1}Attribute($attribute)
+{
+    
+}
+]]></content>
+    <tabTrigger>el_mset</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

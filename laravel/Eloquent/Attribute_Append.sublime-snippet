@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+public \$append = [${1}];
+]]></content>
+    <tabTrigger>el_append</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+public function get${1}Attribute()
+{
+    return '';
+}
+]]></content>
+    <tabTrigger>el_mget</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

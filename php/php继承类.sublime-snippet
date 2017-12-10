@@ -1,12 +1,6 @@
 <snippet>
     <content><![CDATA[
 class ${1} extends ${2} {
-
-    public function __construct ()
-    {
-        
-    }
-
     ${3}
 }
 ]]></content>
