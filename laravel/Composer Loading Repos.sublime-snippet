@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+"repositories": [
+    {
+        "type": "git",
+        "url": "git@github.com:xudong7930/productsadmin.git"
+    }
+],
+]]></content>
+    <tabTrigger>load_repo</tabTrigger>
+    <scope>source.json</scope>
+</snippet>
