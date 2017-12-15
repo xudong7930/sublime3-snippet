@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+if(! auth()->attempt(request(['email', 'password']))) {
+    return back();
+    return back()->withErrors(['message'=>'username or password not right']);
+}
+]]></content>
+     <tabTrigger>auth_attempt</tabTrigger>
+     <scope>source.php</scope>
+</snippet>

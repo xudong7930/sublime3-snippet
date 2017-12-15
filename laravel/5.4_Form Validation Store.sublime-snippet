@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+\$this->validate(\$request, [
+    '${2:name}' => 'required',
+]);
+\$model = Model::create(request(['field1']));
+]]></content>
+    <tabTrigger>fm_store</tabTrigger>
+    <scope>source.php</scope>
+</snippet>
