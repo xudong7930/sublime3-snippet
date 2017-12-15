@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+@if (\$errors->has('${1}'))
+    <span class="help-block {{\$errors->has('email') ? 'alert-danger': ''}}">{{ \$errors->first('${2}') }}</span>
+@endif
+]]></content>
+    <tabTrigger>bl_error</tabTrigger>
+    <scope>source.php, text.html</scope>
+</snippet>

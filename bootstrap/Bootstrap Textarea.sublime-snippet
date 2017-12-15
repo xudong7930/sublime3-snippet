@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-<textarea class="form-control" rows="3"></textarea>
+<textarea class="form-control" rows="3" name="${1:content}" placeholder=""></textarea>
 ]]></content>
     <tabTrigger>bt_textarea</tabTrigger>
     <scope>source.php,text.html</scope>

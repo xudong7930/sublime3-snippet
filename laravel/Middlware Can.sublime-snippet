@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-\$this->middleware('can:${1}');
+\$this->middleware('can:${1}', ['only'=>[], 'except'=>[]]);
 ]]></content>
     <tabTrigger>midc</tabTrigger>
     <scope>source.php</scope>

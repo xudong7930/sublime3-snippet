@@ -10,8 +10,6 @@
     </div>
 @endif
 ]]></content>
-    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>bl_errorall</tabTrigger>
-    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <tabTrigger>bl_error_all</tabTrigger>
     <scope>source.php,text.html</scope>
 </snippet>

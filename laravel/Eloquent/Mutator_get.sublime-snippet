@@ -1,10 +1,10 @@
 <snippet>
     <content><![CDATA[
-public function get${1}Attribute()
+public function get${1}Attribute(\$value)
 {
     return '';
 }
 ]]></content>
-    <tabTrigger>el_mget</tabTrigger>
+    <tabTrigger>el_get</tabTrigger>
     <scope>source.php</scope>
 </snippet>

@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-\$this->middleware('scope:${1}');
+\$this->middleware('scope:${1}', ['only'=>[], 'except'=>[]]);
 ]]></content>
     <tabTrigger>mids</tabTrigger>
     <scope>source.php</scope>

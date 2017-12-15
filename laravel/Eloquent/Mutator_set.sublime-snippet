@@ -1,10 +1,10 @@
 <snippet>
     <content><![CDATA[
-public function set${1}Attribute($attribute)
+public function set${1}Attribute(\$value)
 {
-    
+    \$this->attributes['first_name'] = '';
 }
 ]]></content>
-    <tabTrigger>el_mset</tabTrigger>
+    <tabTrigger>el_set</tabTrigger>
     <scope>source.php</scope>
 </snippet>
