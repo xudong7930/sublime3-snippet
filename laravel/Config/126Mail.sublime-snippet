@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+MAIL_DRIVER=smtp
+MAIL_HOST=smtp.126.com
+MAIL_PORT=25
+MAIL_USERNAME=xudong7930@126.com
+MAIL_PASSWORD=QLQp2UQ2JujX9rN8
+MAIL_ENCRYPTION=null
+MAIL_FROM_ADDRESS=xudong7930@126.com
+MAIL_FROM_NAME=xudong7930
+]]></content>
+    <tabTrigger>conf_mail126</tabTrigger>
+    <scope>source.php, text.plain</scope>
+</snippet>

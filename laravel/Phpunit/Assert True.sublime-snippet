@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
-\$object = new stdClass;
+\$this->assertTrue(${1:true});
 ]]></content>
-     <tabTrigger>class_std</tabTrigger>
+     <tabTrigger>assert_bool</tabTrigger>
      <scope>source.php</scope>
 </snippet>

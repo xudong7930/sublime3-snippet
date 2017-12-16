@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+session('${1:key}');
+]]></content>
+    <tabTrigger>sess_get</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

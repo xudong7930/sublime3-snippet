@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+view()->composer('${1:layouts.sidebar}', function (\$view) {
+    \$view->with('archives', []);
+});
+]]></content>
+    <tabTrigger>view_composer</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

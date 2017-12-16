@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+class UserSubscripbe
+{
+    
+}
+]]></content>
+    <tabTrigger>evt_subscribe</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

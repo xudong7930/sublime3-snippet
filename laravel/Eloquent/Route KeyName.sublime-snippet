@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+public function getRouteKeyName()
+{
+    return 'id'; //表的字段
+}
+]]></content>
+    <tabTrigger>el_routekey</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

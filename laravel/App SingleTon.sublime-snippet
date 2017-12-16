@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+\$this->app->singleton(Model::class, function (\$app) {
+            return new Model('15811448243');
+        });
+]]></content>
+    <tabTrigger>app_singleton</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

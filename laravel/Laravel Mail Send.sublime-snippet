@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+Mail::to(\$user)->send(new ${1:MailTemplate}(\$user));
+]]></content>
+    <tabTrigger>mail</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

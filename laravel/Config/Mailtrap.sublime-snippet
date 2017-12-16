@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+MAIL_DRIVER=smtp
+MAIL_HOST=smtp.mailtrap.io
+MAIL_PORT=2525
+MAIL_USERNAME=7a00d5d9c110ab
+MAIL_PASSWORD=365493fc398e84
+MAIL_ENCRYPTION=null
+MAIL_FROM_ADDRESS=blog@zqdl.com
+MAIL_FROM_NAME=blog
+]]></content>
+    <tabTrigger>conf_mailtrap</tabTrigger>
+    <scope>source.php, text.plain</scope>
+</snippet>

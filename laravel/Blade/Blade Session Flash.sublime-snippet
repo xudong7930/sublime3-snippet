@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+@if(\$flash = session('${1:key}'))
+    <div class="alert alert-danger">
+        {{ \$flash }}
+    </div>
+@endif
+]]></content>
+    <tabTrigger>bl_session_flash</tabTrigger>
+    <scope>source.php,text.html</scope>
+</snippet>
