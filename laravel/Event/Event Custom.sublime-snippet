@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+Event::listen('${1:event.name}', function (${2}) {
+    ${3} 
+});
+]]></content>
+    <tabTrigger>evt_custom</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

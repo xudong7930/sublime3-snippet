@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+public function scope${1}(\$query, \$filter)
+{
+    if (\$month = \$filter['month']) {
+        \$query->whereMonth('created_at', \$month);
+    }
+}
+]]></content>
+    <tabTrigger>el_scope</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

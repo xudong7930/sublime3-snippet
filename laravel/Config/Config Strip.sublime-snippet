@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+STRIPE_KEY=pk_test_mDL0r854fqYPcozdU9SKLoqc
+STRIPE_SECRET=sk_test_MZ66y60M2aykMUQzBD8yPBGE
+]]></content>
+    <tabTrigger>conf_strip</tabTrigger>
+    <scope>source.php, text.plain</scope>
+</snippet>
