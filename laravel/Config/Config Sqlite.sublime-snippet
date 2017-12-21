@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+DB_CONNECTION=sqlite
+]]></content>
+    <tabTrigger>conf_sqlite</tabTrigger>
+    <scope>text.plain</scope>
+</snippet>

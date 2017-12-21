@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+auth()->loginUsingId(${1:1});
+]]></content>
+     <tabTrigger>auth_login</tabTrigger>
+     <scope>source.php</scope>
+</snippet>
