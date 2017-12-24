@@ -2,7 +2,7 @@
     <content><![CDATA[
 public function ${1:blogs}()
 {
-    return \$this->belongsToMany(${2:Blog}::class, '${3:中间表}', '${4:foreign_key}', '${5:locak_key}');
+    return \$this->belongsToMany(${2:Blog}::class, '${3:中间表}', '${4:foreign_key_1}', '${5:foreign_key_2}');
 }
 ]]></content>
     <tabTrigger>el_belong_many</tabTrigger>

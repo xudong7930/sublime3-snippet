@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+Schema::table('${1:TableName}', function (Blueprint \$table) {
+    \$table->dropForeign([]);
+    ${2}
+});
+]]></content>
+    <tabTrigger>schema_table</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

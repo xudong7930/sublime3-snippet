@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+Schema::disableForeignKeyConstraints();
+]]></content>
+    <tabTrigger>schema_foreign_disable</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

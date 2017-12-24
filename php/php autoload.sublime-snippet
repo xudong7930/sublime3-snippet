@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-require 'vendor/autoload.php';
+require __DIR__.'/vendor/autoload.php';
 ]]></content>
      <tabTrigger>auto</tabTrigger>
      <scope>source.php</scope>
