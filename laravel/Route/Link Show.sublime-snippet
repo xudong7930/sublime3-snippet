@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+<a href="{{ route('posts.show', ['post'=>\$post->id]) }}">${2:show}</a>
+]]></content>
+    <tabTrigger>link_show</tabTrigger>
+    <scope>source.php, text.html</scope>
+</snippet>

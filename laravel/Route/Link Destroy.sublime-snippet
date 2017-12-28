@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<form id="post-{{$post->id}}" action="{{route('posts.destroy', $post->id)}}" method="POST" class="hide">{{ csrf_field() }} {{ method_field('DELETE') }}</form>
+<a href="#" onclick="document.getElementById('post-{{\$post->id}}').submit()">drop</a>
+]]></content>
+    <tabTrigger>link_drop</tabTrigger>
+    <scope>source.php, text.html</scope>
+</snippet>

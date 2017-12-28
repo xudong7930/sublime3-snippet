@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-<form class="form-horizontal" method="POST" action="">
+<form class="form-horizontal" method="POST" action="{{ route('post.create') }}">
     {{ csrf_field() }}
     {{ method_field('POST') }}
     <div class="form-group">
@@ -13,10 +13,12 @@
             <input type="checkbox" name="" id=""> Remember Me
         </label>
     </div>
-    <textarea class="form-control" rows="3"></textarea>
+    <div class="form-group">
+        <textarea class="form-control" rows="3" name=""></textarea>
+    </div>
     <button type="submit" class="btn btn-default">Submit</button>
 </form>
 ]]></content>
-    <tabTrigger>bt_form</tabTrigger>
+    <tabTrigger>bt_form_create</tabTrigger>
     <scope>text.html,source.php</scope>
 </snippet>
