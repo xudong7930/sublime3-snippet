@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
-\$faker->paragraph
+\$faker->imageUrl(${1: 200}, ${2:200})
 ]]></content>
-    <tabTrigger>fk_paragraph</tabTrigger>
+    <tabTrigger>fk_image_url</tabTrigger>
     <scope>source.php</scope>
 </snippet>

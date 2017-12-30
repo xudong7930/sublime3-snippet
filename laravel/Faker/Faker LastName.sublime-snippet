@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
-\$faker->paragraph
+\$faker->lastName('${1}')
 ]]></content>
-    <tabTrigger>fk_paragraph</tabTrigger>
+    <tabTrigger>fk_name</tabTrigger>
     <scope>source.php</scope>
 </snippet>

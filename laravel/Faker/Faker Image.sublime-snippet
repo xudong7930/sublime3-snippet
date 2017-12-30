@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+\$faker->image(${1:sourceDir}, ${2: 300}, ${3: 200})
+]]></content>
+    <tabTrigger>fk_image</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

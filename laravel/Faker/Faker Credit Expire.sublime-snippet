@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+\$faker->creditCardExpirationDateString
+]]></content>
+    <tabTrigger>fk_credit_expire</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

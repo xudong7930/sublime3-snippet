@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-\$faker->word(${1:1})
+\$faker->word
 ]]></content>
     <tabTrigger>fk_word</tabTrigger>
     <scope>source.php</scope>

@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
-\$faker->paragraph
+\$faker->ipv6
 ]]></content>
-    <tabTrigger>fk_paragraph</tabTrigger>
+    <tabTrigger>fk_ip</tabTrigger>
     <scope>source.php</scope>
 </snippet>

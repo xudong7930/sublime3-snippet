@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
-\$faker->paragraph
+\$faker->firefox
 ]]></content>
-    <tabTrigger>fk_paragraph</tabTrigger>
+    <tabTrigger>fk_browser_firefox</tabTrigger>
     <scope>source.php</scope>
 </snippet>

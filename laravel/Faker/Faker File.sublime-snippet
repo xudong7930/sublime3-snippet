@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+\$faker->file(${1:sourceDir}, ${2: targetDir}, false)
+]]></content>
+    <tabTrigger>fk_file</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

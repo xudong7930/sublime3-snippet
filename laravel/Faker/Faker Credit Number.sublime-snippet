@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+\$faker->creditCardNumber
+]]></content>
+    <tabTrigger>fk_credit_number</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

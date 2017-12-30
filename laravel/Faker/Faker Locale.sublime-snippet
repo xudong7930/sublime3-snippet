@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
-\$faker->paragraph
+\$faker->locale
 ]]></content>
-    <tabTrigger>fk_paragraph</tabTrigger>
+    <tabTrigger>fk_locale</tabTrigger>
     <scope>source.php</scope>
 </snippet>

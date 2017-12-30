@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-\$faker->name,
+\$faker->username;
 ]]></content>
     <tabTrigger>fk_name</tabTrigger>
     <scope>source.php</scope>
