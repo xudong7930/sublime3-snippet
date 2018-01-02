@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+setcookie('${1:key}', '${2:value}', ${3:expire}, '${4:path}', '${5:example.com}', ${6:secure=false}, ${7:httponly=true});
+]]></content>
+     <tabTrigger>cookie</tabTrigger>
+     <scope>source.php</scope>
+</snippet>

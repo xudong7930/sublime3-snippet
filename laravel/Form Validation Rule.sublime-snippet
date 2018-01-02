@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 \$data = \$this->validate(\$request, [
-    'title' => 'required|string|min:3|max:50|unique:posts,title|regex:/^[0-9a-zA-Z]*$/',
+    'title' => 'required|string|min:3|max:50|unique:posts,title|regex:/^[0-9a-zA-Z]*\$/',
     'body' => 'required|string',
     'password' => 'required|min:6|max:12',
     'repassword' => 'same:password|different:password',

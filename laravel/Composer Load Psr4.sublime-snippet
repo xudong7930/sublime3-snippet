@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+"psr-4": {
+    "App\\": "${1:app}"
+}
+]]></content>
+    <tabTrigger>load_psr4</tabTrigger>
+    <scope>source.json</scope>
+</snippet>
