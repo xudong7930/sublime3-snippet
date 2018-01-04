@@ -4,7 +4,7 @@
 use PHPUnit\Framework\TestCase;
 
 class ${1:Sample}Test extends TestCase {
-    ${1}
+    ${2}
 }
 ]]></content>
      <tabTrigger>test_class</tabTrigger>

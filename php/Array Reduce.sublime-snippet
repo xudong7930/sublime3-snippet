@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${3:\$result} = array_reduce(${1}, function(\$carry, \$item) {
+    
+}, ${2:null});
+]]></content>
+     <tabTrigger>reduce</tabTrigger>
+     <scope>source.php</scope>
+</snippet>

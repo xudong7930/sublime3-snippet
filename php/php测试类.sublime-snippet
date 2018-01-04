@@ -1,6 +1,7 @@
 <snippet>
     <content><![CDATA[
-class ${1:ExampleTest} extends PHPUnit_Framework_TestCase {
+class ${1:ExampleTest} extends PHPUnit_Framework_TestCase
+{
     
     /**
      * @test

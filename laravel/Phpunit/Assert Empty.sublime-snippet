@@ -1,10 +1,7 @@
 <snippet>
     <content><![CDATA[
-class ${1} implements ${2}
-{
-    ${3}
-}
+\$this->assertEmpty(${1});
 ]]></content>
-     <tabTrigger>class_implements</tabTrigger>
+     <tabTrigger>assert_empty</tabTrigger>
      <scope>source.php</scope>
 </snippet>

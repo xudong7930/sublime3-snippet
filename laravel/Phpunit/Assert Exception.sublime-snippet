@@ -1,10 +1,7 @@
 <snippet>
     <content><![CDATA[
-class ${1} implements ${2}
-{
-    ${3}
-}
+\$this->expectException(${1:Exception});
 ]]></content>
-     <tabTrigger>class_implements</tabTrigger>
+     <tabTrigger>assert_exception</tabTrigger>
      <scope>source.php</scope>
 </snippet>
