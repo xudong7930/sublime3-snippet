@@ -10,5 +10,5 @@ MAIL_FROM_ADDRESS=blog@zqdl.com
 MAIL_FROM_NAME=blog
 ]]></content>
     <tabTrigger>conf_mailtrap</tabTrigger>
-    <scope>source.php, text.plain</scope>
+    <scope>source.php, text.plain, source.ini</scope>
 </snippet>

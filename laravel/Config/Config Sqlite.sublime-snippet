@@ -3,5 +3,5 @@
 DB_CONNECTION=sqlite
 ]]></content>
     <tabTrigger>conf_sqlite</tabTrigger>
-    <scope>text.plain</scope>
+    <scope>source.php, text.plain, source.ini</scope>
 </snippet>

@@ -5,5 +5,5 @@ REDIS_PASSWORD=null
 REDIS_PORT=6379
 ]]></content>
     <tabTrigger>conf_redis</tabTrigger>
-    <scope>text.plain</scope>
+    <scope>source.php, text.plain, source.ini</scope>
 </snippet>

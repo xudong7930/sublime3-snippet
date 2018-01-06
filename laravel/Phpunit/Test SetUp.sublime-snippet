@@ -1,9 +1,11 @@
 <snippet>
     <content><![CDATA[
-public function SetUp()
+public function setUp()
 {
     ${2}
 }
+
+
 ]]></content>
      <tabTrigger>test_setup</tabTrigger>
      <scope>source.php</scope>

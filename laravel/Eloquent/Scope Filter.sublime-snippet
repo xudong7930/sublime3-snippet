@@ -5,6 +5,8 @@ public function scopeFilter(\$query, \$filter)
     if (\$month = \$filter['month']) {
         \$query->whereMonth('created_at', \$month);
     }
+
+    return \$query;
 }
 ]]></content>
     <tabTrigger>el_scope_filter</tabTrigger>

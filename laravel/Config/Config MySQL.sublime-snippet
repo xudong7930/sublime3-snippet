@@ -8,5 +8,5 @@ DB_USERNAME=homestead
 DB_PASSWORD=secret
 ]]></content>
     <tabTrigger>conf_mysql</tabTrigger>
-    <scope>text.plain</scope>
+    <scope>source.php, text.plain, source.ini</scope>
 </snippet>

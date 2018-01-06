@@ -10,5 +10,5 @@ MAIL_FROM_ADDRESS=xudong7930@126.com
 MAIL_FROM_NAME=xudong7930
 ]]></content>
     <tabTrigger>conf_mail126</tabTrigger>
-    <scope>source.php, text.plain</scope>
+    <scope>source.php, text.plain, source.ini</scope>
 </snippet>
