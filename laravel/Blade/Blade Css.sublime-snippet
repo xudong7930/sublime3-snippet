@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+<link rel="stylesheet" href="{{ asset('css/${1:app}.css') }}">
+]]></content>
+    <tabTrigger>bl_css</tabTrigger>
+    <scope>source.php, text.html</scope>
+</snippet>

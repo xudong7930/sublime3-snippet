@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+computed: {
+    ${1}() {
+        ${2}
+    }  
+},
+
+]]></content>
+    <tabTrigger>vue_computed</tabTrigger>
+    <scope>source.vue, text.html, source.js</scope>
+</snippet>

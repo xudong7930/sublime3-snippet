@@ -5,6 +5,7 @@ function ${1}(${2})
     ${3}
 }
 
+
 ]]></content>
      <tabTrigger>func</tabTrigger>
      <scope>source.php</scope>

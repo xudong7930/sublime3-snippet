@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+preg_replace_callback('${1:regexp}', function(\$matches) {
+    return "something";
+}, \$body);
+]]></content>
+    <tabTrigger>preg</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+<script>
+    export default {
+        ${1}
+    }
+</script>
+]]></content>
+    <tabTrigger>vue_script</tabTrigger>
+    <scope>source.vue, text.html, source.js</scope>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+axios.get(${1}).then(response => {
+    ${2}
+});
+]]></content>
+    <tabTrigger>vue_axios</tabTrigger>
+    <scope>source.vue, text.html, source.js</scope>
+</snippet>

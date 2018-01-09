@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+<form @submit.prevent='onSubmit'>
+    ${1}
+</form>
+]]></content>
+    <tabTrigger>vue_form</tabTrigger>
+    <scope>source.vue, text.html, source.js</scope>
+</snippet>

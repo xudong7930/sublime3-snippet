@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+public function ${1:blogs}()
+{
+    return \$this->morphMany(${2:Blog}::class, '${3:prefix}');
+}
+]]></content>
+    <tabTrigger>el_morph</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

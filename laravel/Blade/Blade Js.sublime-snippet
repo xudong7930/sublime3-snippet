@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+<script src="{{ asset('js/${1:app}.js') }}"></script>
+]]></content>
+    <tabTrigger>bl_js</tabTrigger>
+    <scope>source.php, text.html</scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+created() {
+    ${1}
+},
+
+]]></content>
+    <tabTrigger>vue_created</tabTrigger>
+    <scope>source.vue, text.html, source.js</scope>
+</snippet>

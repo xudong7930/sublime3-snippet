@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+filters: {
+    ${1}
+},
+
+]]></content>
+    <tabTrigger>vue_filter</tabTrigger>
+    <scope>source.vue, text.html, source.js</scope>
+</snippet>

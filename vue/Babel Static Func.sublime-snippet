@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+static ${1}(${2}) {
+    ${3}
+}
+
+]]></content>
+    <tabTrigger>mets</tabTrigger>
+    <scope>source.vue, text.html, source.js</scope>
+</snippet>
