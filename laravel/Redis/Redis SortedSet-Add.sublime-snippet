@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+Redis::zadd('${1:key}', ${2:score}, "${3:value}");
+]]></content>
+    <tabTrigger>redis_zadd</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+Redis::scard('${1:key}');
+]]></content>
+    <tabTrigger>redis_scard</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

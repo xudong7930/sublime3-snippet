@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+Redis::persist('${1:key}');
+]]></content>
+    <tabTrigger>redis_persist</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

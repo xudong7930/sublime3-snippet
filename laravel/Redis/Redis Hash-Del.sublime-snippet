@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+Redis::hdel('${1:key}', [${2:feild}]);
+]]></content>
+    <tabTrigger>redis_hdel</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

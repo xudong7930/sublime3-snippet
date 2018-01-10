@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+Redis::rename('${1:key}', '${2:key2}');
+]]></content>
+    <tabTrigger>redis_rename</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

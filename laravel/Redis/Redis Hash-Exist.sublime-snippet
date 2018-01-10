@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+Redis::hexists('${1:key}', '${2:field}');
+]]></content>
+    <tabTrigger>redis_hexists</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+Redis::type('${1:key}');
+]]></content>
+    <tabTrigger>redis_type</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

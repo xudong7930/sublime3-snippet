@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+Redis::mset(['${1:key}'=>'${2:value}']);
+]]></content>
+    <tabTrigger>redis_mset</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

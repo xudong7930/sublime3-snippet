@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+Redis::hset('${1:key}', '${2:field}', '${3:value}');
+]]></content>
+    <tabTrigger>redis_hset</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

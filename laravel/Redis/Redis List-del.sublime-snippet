@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+Redis::lrem('${1:key}', '${2:key2}');
+]]></content>
+    <tabTrigger>redis_lrem</tabTrigger>
+    <scope>source.php</scope>
+</snippet>
