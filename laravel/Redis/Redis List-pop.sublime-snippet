@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+Redis::{$1:rl}pop('${2:key}');
+]]></content>
+    <tabTrigger>redis_lpop</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

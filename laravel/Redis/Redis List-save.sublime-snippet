@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+Redis::lset('${1:key}', ${2:index}, '${3:value}');
+]]></content>
+    <tabTrigger>redis_lsave</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

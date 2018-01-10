@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+Redis::${1:rl}pushx('${2:key}', '${3:value}');
+]]></content>
+    <tabTrigger>redis_laddx</tabTrigger>
+    <scope>source.php</scope>
+</snippet>
