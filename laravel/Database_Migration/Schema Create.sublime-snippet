@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 Schema::create('${1:TableName}', function (Blueprint \$table) {
-    \$table->increments('${2:id}');
+    \$table->increments('id');
     ${2}
 });
 ]]></content>

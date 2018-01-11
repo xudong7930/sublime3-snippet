@@ -5,6 +5,6 @@ public function ${1:user}()
     return \$this->belongsTo(${2:User}::class, '${3:foreign_key}', '${4:local_key}');
 }
 ]]></content>
-    <tabTrigger>el_belong</tabTrigger>
+    <tabTrigger>el_relation</tabTrigger>
     <scope>source.php</scope>
 </snippet>

@@ -5,6 +5,6 @@ public function ${1:posts}()
     return \$this->hasManyThrought(${2:Post}::class, ${3:User}::class, '${4:country_id}', '${5:user_id}', '${6:id}', '${7:id}');
 }
 ]]></content>
-    <tabTrigger>el_hasmany_through</tabTrigger>
+    <tabTrigger>el_relation</tabTrigger>
     <scope>source.php</scope>
 </snippet>

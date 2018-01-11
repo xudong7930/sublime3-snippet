@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+DB::commit();
+]]></content>
+    <tabTrigger>db_commit</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

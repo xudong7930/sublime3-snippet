@@ -5,6 +5,6 @@ public function ${1:blogs}()
     return \$this->hasMany(${2:Blog}::class, '${3:foreign_key}', '${4:local_key}');
 }
 ]]></content>
-    <tabTrigger>el_hasmany</tabTrigger>
+    <tabTrigger>el_relation</tabTrigger>
     <scope>source.php</scope>
 </snippet>

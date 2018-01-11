@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+DB::transaction(function() use () {
+    ${1}
+});
+]]></content>
+    <tabTrigger>db_trans</tabTrigger>
+    <scope>source.php</scope>
+</snippet>
