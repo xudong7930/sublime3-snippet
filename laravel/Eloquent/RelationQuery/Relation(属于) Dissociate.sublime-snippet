@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+${1:Post}->comments()->dissociate()->save();
+]]></content>
+    <tabTrigger>query_dissociate</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

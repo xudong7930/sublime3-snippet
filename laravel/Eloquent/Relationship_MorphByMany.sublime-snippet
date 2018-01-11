@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+public function ${1:posts}()
+{
+    return \$this->morphByMany(${2:Post}::class, '${3:prefix}');
+}
+]]></content>
+    <tabTrigger>el_morph_bymany</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

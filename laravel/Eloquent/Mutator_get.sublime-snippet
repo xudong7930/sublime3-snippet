@@ -2,7 +2,7 @@
     <content><![CDATA[
 public function get${1}Attribute(\$value)
 {
-    return '';
+    return strtoupper(\$value);
 }
 ]]></content>
     <tabTrigger>el_get</tabTrigger>

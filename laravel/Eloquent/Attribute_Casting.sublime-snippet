@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+protected \$casts = [
+    // integer/real/float/double/string/boolean/object/array/collection/date/datetime/timestamp
+    '${1:field}' => '${2:type}'
+];
+]]></content>
+    <tabTrigger>el_cast</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

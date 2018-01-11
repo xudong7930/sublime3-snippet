@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+Redis::subscribe('${1:channel}');
+]]></content>
+    <tabTrigger>redis_sub</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

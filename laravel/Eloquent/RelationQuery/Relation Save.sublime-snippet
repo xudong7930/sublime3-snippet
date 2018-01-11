@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+${1:Post}->comments()->save(${1:instance});
+]]></content>
+    <tabTrigger>query_save</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

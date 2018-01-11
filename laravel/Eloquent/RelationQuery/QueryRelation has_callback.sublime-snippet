@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:Post}::whereHas|whereDoesntHave('${2:comments}', function(\$query) {
+    $query->where('id', '>', 1);
+})->get();
+]]></content>
+    <tabTrigger>query_has</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

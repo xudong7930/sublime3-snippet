@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+${1:Post}->comments()->createMany([
+    ['body' => 'some comments']
+]);
+]]></content>
+    <tabTrigger>query_create</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+$user->roles()->toggle([1, 2, 3]);
+]]></content>
+    <tabTrigger>query_toggle</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

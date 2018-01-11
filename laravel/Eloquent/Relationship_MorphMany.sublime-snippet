@@ -5,6 +5,6 @@ public function ${1:blogs}()
     return \$this->morphMany(${2:Blog}::class, '${3:prefix}');
 }
 ]]></content>
-    <tabTrigger>el_morph</tabTrigger>
+    <tabTrigger>el_morph_many</tabTrigger>
     <scope>source.php</scope>
 </snippet>

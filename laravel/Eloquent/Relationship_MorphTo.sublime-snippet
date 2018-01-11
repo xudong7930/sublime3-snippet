@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+public function ${1:comment}able()
+{
+    return \$this->morphTo();
+}
+]]></content>
+    <tabTrigger>el_morph_to</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

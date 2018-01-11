@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+public function ${1:tags}()
+{
+    return \$this->morphToMany(${2:Tag}::class, '${3:prefix}');
+}
+]]></content>
+    <tabTrigger>el_morph_tomany</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

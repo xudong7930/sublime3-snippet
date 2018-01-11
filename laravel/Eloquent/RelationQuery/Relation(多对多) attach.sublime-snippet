@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+$user->roles()->attach(${1:roleId});
+]]></content>
+    <tabTrigger>query_attach</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

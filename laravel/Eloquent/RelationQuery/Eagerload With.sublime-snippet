@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+${1:Post}::with|load(${2:comments, comments.votes, ['comments']})->get();
+]]></content>
+    <tabTrigger>query_with</tabTrigger>
+    <scope>source.php</scope>
+</snippet>
