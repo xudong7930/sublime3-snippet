@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+Cache::get('${1:key}', function() {
+    ${2}
+    return '';
+});
+]]></content>
+    <tabTrigger>cache_get_callback</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

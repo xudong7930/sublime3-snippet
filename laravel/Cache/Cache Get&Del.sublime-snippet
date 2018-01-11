@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+Cache::pull('${1:key}');
+]]></content>
+    <tabTrigger>cache_get</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

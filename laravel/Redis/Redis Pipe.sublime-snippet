@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+Redis::pipeline(function(\$pipe) {
+    \$pipe->set('key', 'value');
+    ${1}
+});
+]]></content>
+    <tabTrigger>redis_pipe</tabTrigger>
+    <scope>source.php</scope>
+</snippet>
