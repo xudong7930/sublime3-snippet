@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+DB::delete('${1:delete from users where id = :id}', [${2:'id'=>1}]);
+]]></content>
+    <tabTrigger>db_sql</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

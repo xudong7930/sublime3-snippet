@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-${1:Post}->comments()->create([
+\$user->comments()->create([
     'body' => 'some comments'
 ]);
 ]]></content>

@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-$user->roles()->detach([${1:roleId}]);
+\$user->roles()->detach([${1:roleId}]);
 ]]></content>
     <tabTrigger>query_detach</tabTrigger>
     <scope>source.php</scope>

@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-$user->roles()->attach(${1:roleId});
+\$user->roles()->attach([${1:roleId}]|instance|roleid);
 ]]></content>
     <tabTrigger>query_attach</tabTrigger>
     <scope>source.php</scope>

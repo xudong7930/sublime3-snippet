@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+DB::insert('${1:insert into users (name) values (?)}', [${2: 'xudong'}]);
+]]></content>
+    <tabTrigger>db_sql</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

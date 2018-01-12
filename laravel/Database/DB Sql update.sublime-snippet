@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+DB::update('${1:update users set name=?}', [${2:'sbjsw'}]);
+]]></content>
+    <tabTrigger>db_sql</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

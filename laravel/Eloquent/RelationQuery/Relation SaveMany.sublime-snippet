@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-${1:Post}->comments()->saveMany([
+\$user->comments()->saveMany([
     ${1:instance}
 ]);
 ]]></content>

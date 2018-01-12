@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
-\$user->comments()->dissociate()->save();
+DB::table('users')->delete()->truncate();
 ]]></content>
-    <tabTrigger>query_dissociate</tabTrigger>
+    <tabTrigger>db_qb</tabTrigger>
     <scope>source.php</scope>
 </snippet>

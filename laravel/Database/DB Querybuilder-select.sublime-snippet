@@ -1,0 +1,38 @@
+<snippet>
+    <content><![CDATA[
+DB::table('users')
+    ->select('id', 'name as username')->addSelect('email')
+    ->addSelect(DB::raw('count(*) as count'))->distinct()
+    ->join('contacts', 'users.id', '=', 'contacts.user_id')
+    ->leftJoin('posts', 'users.id', '=', 'posts.user_id')
+    ->join('constants', function (\$join) {
+        \$join->on('users.id', '=', 'contacts.id')
+            ->where('contacts.id', '>', 5);
+    })
+    ->union(DB::table('users')->get())
+    ->where('column', '=', 'value')->orWhere('name', 'John')->whereId(1)
+    ->orWhere(function (\$query) {
+        \$query->where('votes', '>', 1);
+    })
+    ->whereBetween('votes', [1, 100])->whereNotBetween('votes', [1, 100])
+    ->whereIn('id', [1, 2, 3])->whereNotIn('id', [1, 2, 3])
+    ->whereNull('updated_at')->whereNotNull('updated_at')
+    ->whereDate('created_at', '2016-12-31')->whereMonth('created_at', '12')->whereDay('created_at', '31')->whereYear('created_at', '2016')
+    ->whereColumn('updated_at', '>', 'created_at')
+    ->whereExists(function (\$query) {
+        \$query->select(DB::raw(1))->from('orders')->whereRaw('orders.user_id = users.id');
+    })
+    ->latest()->inRandomOrder()
+    ->orderBy('id', 'desc')
+    ->groupBy('account_id')->having('account_id', '>', 100)->havingRaw('SUM(price) > 2500')
+    ->skip(10)->take(5)
+    ->sharedLock()->lockForUpdate()
+    ->chunk(100, function (\$users) {
+        dump(\$users);
+    })
+    ->count()->max('id')->min('id')->avg('age')->sum()
+    ->get()->first()->value('email')->pluck('id');
+]]></content>
+    <tabTrigger>db_qb</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

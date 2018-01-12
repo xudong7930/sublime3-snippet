@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
-\$user->comments()->dissociate()->save();
+DB::statement('${1:show tables}');
 ]]></content>
-    <tabTrigger>query_dissociate</tabTrigger>
+    <tabTrigger>db_sql</tabTrigger>
     <scope>source.php</scope>
 </snippet>

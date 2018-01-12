@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-${1:Post}->comments()->associate(${1:instance})->save();
+\$user->comments()->associate(${1:instance})->save();
 ]]></content>
     <tabTrigger>query_associate</tabTrigger>
     <scope>source.php</scope>

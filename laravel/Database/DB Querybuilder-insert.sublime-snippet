@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+DB::table('users')->insert|insertGetId(['name'=>'sb']);
+]]></content>
+    <tabTrigger>db_qb</tabTrigger>
+    <scope>source.php</scope>
+</snippet>
