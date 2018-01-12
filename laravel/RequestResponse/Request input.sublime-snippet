@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+\$request->input('${1}');
+]]></content>
+    <tabTrigger>req_input</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

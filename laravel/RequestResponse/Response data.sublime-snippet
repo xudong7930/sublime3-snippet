@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+return response(${1:'some data'}, 200)->withHeaders([${2}])->cookie('x-token-alive', 'abc123', 1);
+]]></content>
+    <tabTrigger>res_data</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

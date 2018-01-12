@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+return redirect('${1}')->withInput();
+]]></content>
+    <tabTrigger>res_redirect</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

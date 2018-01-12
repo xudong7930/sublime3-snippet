@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+return response()->json(${1:array})->withCallback(\$request->query('${2:_callback}'));
+]]></content>
+    <tabTrigger>res_jsonp</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

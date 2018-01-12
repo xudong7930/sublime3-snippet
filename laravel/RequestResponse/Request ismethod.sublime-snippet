@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+\$request->isMethod('${1:post}');
+]]></content>
+    <tabTrigger>req_ismethod</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

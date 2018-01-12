@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+\$request->fullUrl();
+]]></content>
+    <tabTrigger>req_fullurl</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

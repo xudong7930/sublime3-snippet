@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+\$request->url();
+]]></content>
+    <tabTrigger>req_url</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

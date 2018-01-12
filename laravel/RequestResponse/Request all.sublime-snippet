@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+\$request->all();
+]]></content>
+    <tabTrigger>req_all</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

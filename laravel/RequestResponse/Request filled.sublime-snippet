@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+if (\$request->filled('${1}')) {
+    ${2}
+}
+]]></content>
+    <tabTrigger>req_filled</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

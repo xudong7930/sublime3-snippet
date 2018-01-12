@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+return response()->download('${1:path_to_file}', '${2:filename}', [${3:header}]);
+]]></content>
+    <tabTrigger>res_download</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

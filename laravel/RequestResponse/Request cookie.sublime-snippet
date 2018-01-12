@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+\$request->cookie('${1}');
+]]></content>
+    <tabTrigger>req_cookie</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

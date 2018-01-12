@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+return redirect()->route('${1}', [${2}])->with('${3}', '');
+]]></content>
+    <tabTrigger>res_route</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+return redirect()->action('${1:UserController@show}', [${2:'id'=>1}]);
+]]></content>
+    <tabTrigger>res_action</tabTrigger>
+    <scope>source.php</scope>
+</snippet>
