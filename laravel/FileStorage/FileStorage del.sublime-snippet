@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+Storage::delete(['${1:file.jpg}']);
+]]></content>
+    <tabTrigger>fs_del</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

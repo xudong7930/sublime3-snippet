@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+\$path = Storage::putFile('${2:avatars}', \$request->file('${1:avatar}'));
+]]></content>
+    <tabTrigger>fs_store</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

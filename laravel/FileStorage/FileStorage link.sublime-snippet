@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+asset("storage/${1:path_to_filename}")
+]]></content>
+    <tabTrigger>fs_link</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

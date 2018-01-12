@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+Storage::move('${1:old/file1.jpg}', '${2:new/file2.jpg}');
+]]></content>
+    <tabTrigger>fs_move</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+Storage::append|prepend('${1:old/file1.jpg}', '${2:content}');
+]]></content>
+    <tabTrigger>fs_append</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

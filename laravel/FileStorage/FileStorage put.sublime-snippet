@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+Storage::put('${1:path_to_file}', '${2:contents}');
+]]></content>
+    <tabTrigger>fs_put</tabTrigger>
+    <scope>source.php</scope>
+</snippet>
