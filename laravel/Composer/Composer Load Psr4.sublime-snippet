@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 "psr-4": {
-    "App\\": "app"
+    "${1:App\\}": "${2:src/}"
 }
 ]]></content>
     <tabTrigger>load_psr4</tabTrigger>

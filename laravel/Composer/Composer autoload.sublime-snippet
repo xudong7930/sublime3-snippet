@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+"autoload${1:-dev}": {
+    ${2}
+}
+]]></content>
+    <tabTrigger>load_autoload</tabTrigger>
+    <scope>source.json</scope>
+</snippet>

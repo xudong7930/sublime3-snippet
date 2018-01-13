@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
-f
+\$request->flash(${1});
 ]]></content>
-    <tabTrigger>req_</tabTrigger>
+    <tabTrigger>req_flash</tabTrigger>
     <scope>source.php</scope>
 </snippet>

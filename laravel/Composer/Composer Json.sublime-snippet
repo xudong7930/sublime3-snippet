@@ -1,0 +1,53 @@
+<snippet>
+    <content><![CDATA[
+{
+    "name": "包的名称: igorw/event-source",
+    "description": "一个包的简短描述",
+    "type": "包的安装类型: library,project,metapackage,composer-plugin",
+    "keywords": ["encrypt", "office"],
+    "homepage": "http://package.org",
+    "license": "MIT",
+    "authors": [{
+        "name": "xudong7930",
+        "email": "xudong7930@gmail.com",
+        "homepage": "http://person.domain.com",
+        "role": "Developer",
+    }],
+    "require": {
+        "monolog/monolog": "1.0.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^0.6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        },
+        "classmap": [
+            "lib/",
+            "Something.php"
+        ],
+        "files": [
+            "app/Acme/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {"Test\\": "tests/"}
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "地址可以是git,svn,hg等"
+        }
+    ],
+    "prefer-stable": true,
+    "minimum-stability": "最小依赖稳定性: dev|alpha|beta|rc|stable",
+    "scripts": {
+        "post-root-package-install": "",
+    },
+    "extra": {"为scripts字段提供数据"}
+}
+]]></content>
+    <tabTrigger>composer.json</tabTrigger>
+    <scope>source.json, text.plain</scope>
+</snippet>

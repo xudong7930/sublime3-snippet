@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+<snippet>
+    <content><![CDATA[
+${2:hello,sublime}
+]${1}]></content>
+    <tabTrigger>${3:cmd}</tabTrigger>
+    <scope>${4:source.php, text.plain, text.html}</scope>
+</snippet>
+]]></content>
+    <tabTrigger>snippet</tabTrigger>
+    <scope>text.plain, text.xml</scope>
+</snippet>

@@ -2,8 +2,8 @@
     <content><![CDATA[
 "repositories": [
     {
-        "type": "git",
-        "url": "git@github.com:xudong7930/productsadmin.git"
+        "type": "vcs",
+        "url": "${1:git|svn...url}"
     }
 ],
 ]]></content>
