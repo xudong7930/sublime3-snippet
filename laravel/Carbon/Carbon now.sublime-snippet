@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+Carbon::now('Asia/Shanghai')${1:;}
+]]></content>
+    <tabTrigger>carbon_now</tabTrigger>
+    <scope>source.php, text.html</scope>
+</snippet>

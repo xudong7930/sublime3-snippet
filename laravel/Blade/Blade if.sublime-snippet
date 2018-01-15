@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+@if (${1})
+    ${2}
+@else
+@endif
+]]></content>
+    <tabTrigger>bl_if</tabTrigger>
+    <scope>source.php, text.html</scope>
+</snippet>

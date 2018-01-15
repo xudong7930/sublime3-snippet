@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+Log::info('${1:keyname}', [${2}]);
+]]></content>
+    <tabTrigger>log</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

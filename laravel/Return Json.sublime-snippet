@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-return response()->json([${1}]);
-]]></content>
-    <tabTrigger>rj</tabTrigger>
-    <scope>source.php,text.html</scope>
-</snippet>

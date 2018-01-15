@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+Carbon::createFromTimestamp(${1:904390390}, 'Asia/Shanghai')${2:->toDateTimeString()]; 
+]]></content>
+    <tabTrigger>carbon_from</tabTrigger>
+    <scope>source.php, text.html</scope>
+</snippet>

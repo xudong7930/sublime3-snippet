@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+Carbon::createFromFormat('Y-m-d H:i:s', '${1:2016-05-21 22:10:43}')${2:->toDateTimeString()};
+]]></content>
+    <tabTrigger>carbon_from</tabTrigger>
+    <scope>source.php, text.plain, text.html</scope>
+</snippet>

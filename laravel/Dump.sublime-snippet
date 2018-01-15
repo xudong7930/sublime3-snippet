@@ -2,6 +2,6 @@
     <content><![CDATA[
 dump(${1});die;
 ]]></content>
-    <tabTrigger>d</tabTrigger>
+    <tabTrigger>dump</tabTrigger>
     <scope>source.php</scope>
 </snippet>

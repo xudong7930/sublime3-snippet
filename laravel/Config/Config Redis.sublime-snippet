@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 REDIS_HOST=127.0.0.1
-REDIS_PASSWORD=null
+REDIS_PASSWORD=${1:null}
 REDIS_PORT=6379
 ]]></content>
     <tabTrigger>conf_redis</tabTrigger>

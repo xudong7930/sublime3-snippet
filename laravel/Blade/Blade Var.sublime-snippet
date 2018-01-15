@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+{{ ${1} }}
+]]></content>
+    <tabTrigger>bl_var</tabTrigger>
+    <scope>source.php, text.html</scope>
+</snippet>

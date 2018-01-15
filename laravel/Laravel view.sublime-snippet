@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-return view('${1}', ${2:compact('')});
-]]></content>
-     <tabTrigger>la_view</tabTrigger>
-     <scope>source.php</scope>
-</snippet>

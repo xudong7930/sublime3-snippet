@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+@php
+    ${1}
+@endphp
+]]></content>
+    <tabTrigger>bl_php</tabTrigger>
+    <scope>source.php, text.html</scope>
+</snippet>
