@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+public function subscribe(\$events)
+{
+    \$events->listen('${1:event_class}', 'App\Listeners\${2:UserEventSubscriber}@${3:onUserLogin}');
+}
+]]></content>
+    <tabTrigger>event_subscribe</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

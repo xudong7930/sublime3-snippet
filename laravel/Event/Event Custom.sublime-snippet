@@ -1,9 +1,10 @@
 <snippet>
     <content><![CDATA[
-Event::listen('${1:event.name}', function (${2}) {
-    ${3} 
+Event::listen('${1:event_name}', function (\$eventName, array \$data) {
+    // call listener's handle method.
+    ${2}
 });
 ]]></content>
-    <tabTrigger>evt_custom</tabTrigger>
+    <tabTrigger>event_custom</tabTrigger>
     <scope>source.php</scope>
 </snippet>

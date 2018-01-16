@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+public function failed(${1:SomeEvent} \$event, \$exception)
+{
+    ${2}
+}
+]]></content>
+    <tabTrigger>event_listener</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

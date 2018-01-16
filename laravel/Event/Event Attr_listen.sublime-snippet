@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+protected \$listen = [
+    'App\Events\\${1:event}' => [
+        'App\Listeners\\${2:listener}'
+    ],
+];
+]]></content>
+    <tabTrigger>event_attr</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

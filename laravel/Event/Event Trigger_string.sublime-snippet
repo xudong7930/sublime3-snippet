@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-event(new ${1:SomeEvent}(${2:event_param}));
+event('${1:event_name}', [${2:event_param}]);
 ]]></content>
     <tabTrigger>event_trigger</tabTrigger>
     <scope>source.php</scope>

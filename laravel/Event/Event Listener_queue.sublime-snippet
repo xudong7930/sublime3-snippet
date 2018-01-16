@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+public \$queue = '${1}';
+]]></content>
+    <tabTrigger>event_listener</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

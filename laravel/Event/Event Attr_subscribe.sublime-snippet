@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+protected \$subscribe = [
+    'App\Listeners\\${1:UserEventSubscriber}'
+];
+]]></content>
+    <tabTrigger>event_attr</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

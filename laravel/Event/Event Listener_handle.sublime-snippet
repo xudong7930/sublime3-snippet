@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+public function handle(${1:SomeEvent} \$event)
+{
+    ${2}
+    // \$this->delete();
+    // \$this->release(30);
+    // return false;
+}
+]]></content>
+    <tabTrigger>event_listener</tabTrigger>
+    <scope>source.php</scope>
+</snippet>
