@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:JobClass}::dispatch(${2:podcast})
+    ->onConnection('database')
+    ->onQueue(${3:default})
+    ->delay(Carbon::now()->addMinutes(${4:5}));
+]]></content>
+    <tabTrigger>queue_dispatch</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

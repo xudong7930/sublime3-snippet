@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+public \$tries = ${1:5};
+]]></content>
+    <tabTrigger>queue_try</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

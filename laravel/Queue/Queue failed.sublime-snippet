@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+public function failed(Exception \$exception)
+{
+    ${1}
+}
+]]></content>
+    <tabTrigger>queu_failed</tabTrigger>
+    <scope>source.php</scope>
+</snippet>
