@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+
+namespace App\Acme\\${1:Repository};
+
+class ${2:UserRespository} ${3:extends } ${4:implements }
+{
+    ${5}
+}
+]]></content>
+     <tabTrigger>php_class</tabTrigger>
+     <scope>source.php</scope>
+     <description> ⌘ PHP Class</description>
+</snippet>

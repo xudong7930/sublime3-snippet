@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+// retrieved, creating, created, updating, updated, saving, saved, deleting, deleted, restoring, restored
+protected \$dispatchesEvents = [
+	'created' => ${1:SomeEvent}::class
+];
+
+]]></content>
+	<tabTrigger>el_event</tabTrigger>
+	<scope>source.php</scope>
+	<description> => Eloquent Event</description>
+</snippet>

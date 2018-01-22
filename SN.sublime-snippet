@@ -10,6 +10,6 @@ ${2:sublime snippet}
 </snippet>
 ]]></content>
 	<tabTrigger>snippet</tabTrigger>
-	<scope>text.plain</scope>
+	<scope>text.plain, text.xml</scope>
 	<description> => Sublime Snippet You Have Never Used This!!! Go Go Go</description>
 </snippet>

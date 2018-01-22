@@ -1,9 +1,18 @@
 <snippet>
     <content><![CDATA[
-@component('${1}', [${2}])
-    ${3}
+@component('${1:file}', [${2}])
+	@slot('title')
+		the title of the article.
+	@endslot
+	
+	{{-- in file.blade.php: --}}
+    {{--  <div>{{ \$title }}</div> --}}
+    {{--  <p>{{ \$slot }}</p> --}}
+    ${3:this content should be place in \$slot }
+
 @endcomponent
 ]]></content>
     <tabTrigger>bl_component</tabTrigger>
     <scope>source.php, text.html</scope>
+    <description> => Laravel Blade Component</description>
 </snippet>

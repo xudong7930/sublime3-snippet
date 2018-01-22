@@ -25,5 +25,5 @@
 ]]></content>
 	<tabTrigger>envoy</tabTrigger>
 	<scope>source.php, text.plain</scope>
-	<description>Envoy Template</description>
+	<description> => Envoy Template</description>
 </snippet>
