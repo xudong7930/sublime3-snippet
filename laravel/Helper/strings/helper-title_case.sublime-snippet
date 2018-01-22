@@ -1,0 +1,9 @@
+
+<snippet>
+    <content><![CDATA[
+title_case('${1:a nice title uses the correct case}');
+]]></content>
+    <tabTrigger>hp_string</tabTrigger>
+    <scope>source.php</scope>
+    <description>标题转换</description>
+</snippet>

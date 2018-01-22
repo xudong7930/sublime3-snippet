@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-\$result = \$this->httpClient->callHttpSyncApi('account-service', '${1}', [${2}]);
-]]></content>
-    <tabTrigger>sclient</tabTrigger>
-    <scope>source.php, text.plain, text.html</scope>
-</snippet>

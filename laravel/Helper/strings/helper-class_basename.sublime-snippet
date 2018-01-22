@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+class_basename('${1:App\Acme\lib\PogoProvider}');
+]]></content>
+    <tabTrigger>hp_string</tabTrigger>
+    <scope>source.php</scope>
+    <description>Class Basename</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+kebab_case('${1:fooBar}');
+]]></content>
+    <tabTrigger>hp_string</tabTrigger>
+    <scope>source.php</scope>
+    <description>Kebab Case</description>
+</snippet>

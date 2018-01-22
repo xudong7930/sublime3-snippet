@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-protected ${1};
-]]></content>
-     <tabTrigger>pro</tabTrigger>
-     <scope>source.php</scope>
-</snippet>

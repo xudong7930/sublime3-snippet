@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+str_is('${1:正则表达式}', '${2:字符串}');
+]]></content>
+    <tabTrigger>hp_string</tabTrigger>
+    <scope>source.php</scope>
+    <description>String Is</description>
+</snippet>

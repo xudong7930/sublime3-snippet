@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+public function get${1}()
+{
+    return \$this->${2}
+}
+
+
+]]></content>
+     <tabTrigger>class_getter</tabTrigger>
+     <scope>source.php</scope>
+</snippet>

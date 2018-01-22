@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+resource_path('${1}')
+]]></content>
+    <tabTrigger>hp_path</tabTrigger>
+    <scope>source.php</scope>
+    <description>Resource path</description>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+if (\$auth = Sentinel::stateless(${1:credential})) {
+    ${2}
+}
+]]></content>
+    <tabTrigger>sentinel_auth</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+e('${1:<div>one</div>}');
+]]></content>
+    <tabTrigger>hp_string</tabTrigger>
+    <scope>source.php</scope>
+    <description>Embed Html Tags</description>
+</snippet>

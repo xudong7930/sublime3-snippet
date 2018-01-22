@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+<meta name="csrf-token" content="{{ csrf_token() }}">
+]]></content>
+    <tabTrigger>bl_csrf</tabTrigger>
+    <scope>source.php, text.html</scope>
+</snippet>

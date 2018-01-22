@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-public ${1};
-]]></content>
-     <tabTrigger>pu</tabTrigger>
-     <scope>source.php</scope>
-</snippet>

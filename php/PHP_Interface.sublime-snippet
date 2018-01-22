@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[
+namespace ${1:App\Acme\Repository};
+
+interface ${2:Repository}
+{
+	/**
+     * Get the specified configuration value.
+     *
+     * @param  array|string  $key
+     * @param  mixed   $default
+     * @return mixed
+     */
+    public function get(\$key, \$default = null);
+
+    ${3}
+}
+]]></content>
+     <tabTrigger>php_interface</tabTrigger>
+     <scope>source.php</scope>
+     <description>Php Contract</description>
+</snippet>

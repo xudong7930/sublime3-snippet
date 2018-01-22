@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+'${1}', 
+]]></content>
+     <tabTrigger>ai</tabTrigger>
+     <scope>source.php</scope>
+     <description>PHP Array Single</description>
+</snippet>

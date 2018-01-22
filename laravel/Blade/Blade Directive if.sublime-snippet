@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+Blade::if('${1:admin}', function () {
+	${2}
+});
+]]></content>
+    <tabTrigger>bl_if</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

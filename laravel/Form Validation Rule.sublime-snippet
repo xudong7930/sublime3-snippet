@@ -14,7 +14,11 @@
     'ipaddress' => 'required|ip|ipv4|ipv6',
     'avatar' => 'image|dimensions:min_width=100,min_height=200',
     'doc' => 'file',
-    'terms' => 'accepted'
+    'terms' => 'accepted',
+    'other' => [
+        'required',
+        new DomainValidate()
+    ]
 ]);
 ]]></content>
     <tabTrigger>fm_validate</tabTrigger>

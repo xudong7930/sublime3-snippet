@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+public function handle(\$request, Closure \$next, \$guard = null)
+{
+	// before action
+
+	\$response = $next(\$request);
+	
+	// after action
+	
+	return \$next(\$request);
+}
+]]></content>
+	<tabTrigger>middleware_handle</tabTrigger>
+	<scope>source.php</scope>
+	<description>Middleware Handle</description>
+</snippet>

@@ -4,8 +4,6 @@
     <li><a href="${1}">${2}</a></li>
 </ol>
 ]]></content>
-    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>bt_breadcrumb</tabTrigger>
-    <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.php,text.html</scope>
 </snippet>

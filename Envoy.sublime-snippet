@@ -1,0 +1,29 @@
+<snippet>
+	<content><![CDATA[
+# 1. define servers and variables
+@servers(['local' => ['127.0.0.1']])
+
+@setup
+	\$now = time();
+@endsetup
+
+# 2. define task and story
+@task("foo", ['on' => 'local', 'confirm'=>false, 'parallel' => true])
+	ls
+@endtask
+
+@story('deploy')
+	foo
+@endstory
+
+# 3.when finished
+@finished
+
+@endfinished
+
+# 4. Command: envoy run deploy
+]]></content>
+	<tabTrigger>envoy</tabTrigger>
+	<scope>source.php, text.plain</scope>
+	<description>Envoy Template</description>
+</snippet>

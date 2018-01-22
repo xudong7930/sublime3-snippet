@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+if (\$request->ajax()) {
+	${1}
+}
+]]></content>
+    <tabTrigger>req_isAjax</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

@@ -1,0 +1,30 @@
+<snippet>
+    <content><![CDATA[
+---
+box: xudong/homestead
+version: 0.4.0
+ip: "192.168.172.100"
+memory: 1024
+cpus: 1
+provider: virtualbox
+
+authorize: ~/Public/ssh2/id_rsa.pub
+
+keys:
+    ~/Public/ssh2/id_rsa
+
+folders:
+    - map: ${1:/Users/xudong7930/Desktop/laravel-mix}
+      to: /home/vagrant/code
+
+sites:
+    - map: app.io
+      to: /home/vagrant/code/public
+
+databases:
+    - homestead
+]]></content>
+    <tabTrigger>homestead.yaml</tabTrigger>
+    <scope>source.yaml, text.plain</scope>
+    <description>Add New BSD license to a plain text file</description>
+</snippet>

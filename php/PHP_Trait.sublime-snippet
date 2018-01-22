@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+namepsace ${1:Acme\Trait\SomeTrait};
+
+trait ${2:SomeTrait} {
+    ${3}
+}
+]]></content>
+     <tabTrigger>php_trait</tabTrigger>
+     <scope>source.php</scope>
+     <description>PHP Trait</description>
+</snippet>

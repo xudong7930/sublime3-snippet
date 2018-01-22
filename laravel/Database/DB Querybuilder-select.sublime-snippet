@@ -1,6 +1,14 @@
 <snippet>
     <content><![CDATA[
 DB::table('users')
+    ->reject(function($item){
+        return true;
+    })
+    ->random(1) //随机返回一条
+    ->map(function($item){
+        return $item;
+    })
+    ->dump()
     ->select('id', 'name as username')->addSelect('email')
     ->addSelect(DB::raw('count(*) as count'))->distinct()
     ->join('contacts', 'users.id', '=', 'contacts.user_id')

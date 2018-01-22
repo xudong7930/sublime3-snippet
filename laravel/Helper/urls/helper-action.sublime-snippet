@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+action('${1}Controller@${2:index}', [$3]);
+]]></content>
+    <tabTrigger>hp_url</tabTrigger>
+    <scope>source.php</scope>
+    <description>Action Url</description>
+</snippet>

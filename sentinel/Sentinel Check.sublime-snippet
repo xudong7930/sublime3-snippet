@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+if (\$user = Sentinel::check()) {
+    ${2}
+}
+]]></content>
+    <tabTrigger>sentinel_check</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

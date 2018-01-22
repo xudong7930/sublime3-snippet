@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-throw_if(${1:true}, ${2:Exception}::class);
-]]></content>
-     <tabTrigger>helper_throw</tabTrigger>
-     <scope>source.php</scope>
-</snippet>

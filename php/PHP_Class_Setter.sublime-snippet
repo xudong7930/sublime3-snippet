@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+public function set${1}(${3})
+{
+    \$this->${2} = ${3};
+}
+
+
+]]></content>
+     <tabTrigger>class_setter</tabTrigger>
+     <scope>source.php</scope>
+</snippet>

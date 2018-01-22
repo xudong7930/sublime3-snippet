@@ -1,7 +1,11 @@
 <snippet>
     <content><![CDATA[
-<button type="submit" class="btn btn-primary">${1}</button>
+<div class="form-group">
+	<button type="submit" class="btn btn-primary">${1:submit}</button>
+</div>
+
 ]]></content>
-    <tabTrigger>bt_submit</tabTrigger>
-    <scope>source.php,text.html</scope>
+    <tabTrigger>bt_from_submit</tabTrigger>
+    <scope>source.php, text.html</scope>
+    <description> => Bootstrap From Submit</description>
 </snippet>

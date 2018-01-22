@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+* * * * * php /${1}/artisan schedule:run >> /dev/null 2>&1
+]]></content>
+	<tabTrigger>schedule_cron</tabTrigger>
+	<scope>source.php</scope>
+	<description>Schedule Crontab</description>
+</snippet>

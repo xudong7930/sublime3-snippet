@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+Blade::directive('${1:hello}', function (\$data) {
+    // this code should be placed in AppServiceProvider@boot
+    return "<?= \$data; ?>";
+});
+]]></content>
+    <tabTrigger>bl_directive</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

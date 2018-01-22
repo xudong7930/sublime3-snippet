@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+str_before('${1:this is my name}', '${2:this is}');
+]]></content>
+    <tabTrigger>hp_string</tabTrigger>
+    <scope>source.php</scope>
+    <description>String Before</description>
+</snippet>

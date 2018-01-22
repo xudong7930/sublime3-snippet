@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+Notification::send(${1:user_instance}, new ${2:notify_instance});
+]]></content>
+    <tabTrigger>notify_send</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

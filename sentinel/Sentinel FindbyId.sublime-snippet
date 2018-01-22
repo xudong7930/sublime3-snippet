@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+Sentinel::findById(${1});
+]]></content>
+    <tabTrigger>sentinel_find</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

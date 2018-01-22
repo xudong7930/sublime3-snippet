@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+starts_with('${1:this is my name}', '${2:this}');
+]]></content>
+    <tabTrigger>hp_string</tabTrigger>
+    <scope>source.php</scope>
+    <description>String Start With</description>
+</snippet>

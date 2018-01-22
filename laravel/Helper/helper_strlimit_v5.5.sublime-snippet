@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-str_limit(${1}, 50);
-]]></content>
-     <tabTrigger>helper_str_limit</tabTrigger>
-     <scope>source.php</scope>
-</snippet>

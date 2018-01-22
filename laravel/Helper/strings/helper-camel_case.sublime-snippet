@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+camel_case('${1:foo_bar}');
+]]></content>
+    <tabTrigger>hp_string</tabTrigger>
+    <scope>source.php</scope>
+    <description>Camel Case</description>
+</snippet>

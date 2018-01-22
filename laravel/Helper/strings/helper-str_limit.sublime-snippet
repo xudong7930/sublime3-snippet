@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+str_limit('${1:this is my name}', ${2:length});
+]]></content>
+    <tabTrigger>hp_string</tabTrigger>
+    <scope>source.php</scope>
+    <description>String Limit</description>
+</snippet>

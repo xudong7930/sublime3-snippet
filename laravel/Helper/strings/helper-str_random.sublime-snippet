@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+str_random(${1:40});
+]]></content>
+    <tabTrigger>hp_string</tabTrigger>
+    <scope>source.php</scope>
+    <description>随机字符串</description>
+</snippet>

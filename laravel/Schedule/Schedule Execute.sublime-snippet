@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+\$schedule->exec('touch /tmp/hi.txt')
+	->withoutOverlapping()->timezone('Asia/Shanghai')->cron("* * * * *");
+	//->before(function() {})->after(function() {})
+	//->pingBefore(\$url)->thenPing(\$url)
+	//->sendOutputTo($filePath)->appendOutputTo($filePath)->emailOutputTo('foo@example.com');
+]]></content>
+	<tabTrigger>schedule_exec</tabTrigger>
+	<scope>source.php</scope>
+	<description>Schedule Excute</description>
+</snippet>

@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+\$schedule->call(function () {
+	// hourly()/daily()/weekly()/monthly()/quarterly()/yearly()
+	// hourlyAt(17)/dailyAt('13:00')/twiceDaily(1, 13)/monthlyOn(4, '15:00')
+	// weekdays()/sundays()/mondays()/tuesdays()/wednesdays()/thursdays()/fridays()/saturdays()
+	// between('7:00', '22:00')
+	// when|skip(function(){return true;})
+	// everyMinute()/every{Five,Ten,Thirty}Minutes()
+	${1}
+})->withoutOverlapping()->timezone('Asia/Shanghai')->cron("* * * * *");
+// ->before(function() {})->after(function() {})
+// ->pingBefore(\$url)->thenPing(\$url)
+// ->sendOutputTo($filePath)->appendOutputTo($filePath)->emailOutputTo('foo@example.com');
+]]></content>
+	<tabTrigger>schedule_call</tabTrigger>
+	<scope>source.php</scope>
+	<description>Schedule Callback</description>
+</snippet>
