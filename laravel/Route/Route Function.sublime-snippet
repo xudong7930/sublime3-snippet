@@ -1,9 +1,10 @@
 <snippet>
     <content><![CDATA[
-Route::${1:get}('${2}', function(${3}) {
-    ${4}
+Route::${1:get}('/${2}', function(Request \$request) {
+    ${3}
 });
 ]]></content>
-    <tabTrigger>rf</tabTrigger>
+    <tabTrigger>route_function</tabTrigger>
     <scope>source.php</scope>
+    <description> ⌘ Laravel Route Function</description>
 </snippet>

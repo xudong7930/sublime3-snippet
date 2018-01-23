@@ -24,6 +24,6 @@
 # 4. Command: envoy run deploy
 ]]></content>
 	<tabTrigger>envoy</tabTrigger>
-	<scope>source.php, text.plain</scope>
+	<scope>source.php</scope>
 	<description> => Envoy Template</description>
 </snippet>

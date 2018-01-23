@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+|${1:ID}|Email|Age|
+|:--:|:--:|:--:|
+|${2:column}|${2:column}|${2:column}|
+|${3:column}|${3:column}|${3:column}|
+]]></content>
+	<tabTrigger>md_table</tabTrigger>
+	<scope>text.html.markdown, text.html.markdown.multimarkdown</scope>
+	<description> ⌘ Markdown Table</description>
+</snippet>

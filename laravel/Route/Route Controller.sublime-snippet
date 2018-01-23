@@ -1,7 +1,8 @@
 <snippet>
     <content><![CDATA[
-Route::${1:get}('${2}', '${3}Controller@${4}')->name('${5}');
+Route::${1:get}('/${2}', '${3:Some}Controller@${4:index}')->name('${5}');
 ]]></content>
-    <tabTrigger>rc</tabTrigger>
+    <tabTrigger>route_controller</tabTrigger>
     <scope>source.php</scope>
+    <description> ⌘ Laravel Route Controller</description>
 </snippet>

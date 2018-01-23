@@ -7,5 +7,5 @@
 ]]></content>
     <tabTrigger>bt_from_submit</tabTrigger>
     <scope>source.php, text.html</scope>
-    <description> => Bootstrap From Submit</description>
+    <description> => Bootstrap Form Submit</description>
 </snippet>

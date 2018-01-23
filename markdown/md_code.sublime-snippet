@@ -1,8 +1,10 @@
 <snippet>
 	<content><![CDATA[
-## ${1:head title}
+```${1:PHP}
+	${2}
+```
 ]]></content>
-	<tabTrigger>md_head</tabTrigger>
+	<tabTrigger>md_code</tabTrigger>
 	<scope>text.html.markdown, text.html.markdown.multimarkdown</scope>
-	<description> ⌘ Markdown Header</description>
+	<description> ⌘ Mardown Code Block</description>
 </snippet>

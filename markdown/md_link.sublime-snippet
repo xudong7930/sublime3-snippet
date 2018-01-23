@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+[${1:link_name}](${2:link_url "${3:link}"})
+]]></content>
+	<tabTrigger>md_link</tabTrigger>
+	<scope>text.html.markdown, text.html.markdown.multimarkdown</scope>
+	<description> ⌘ Markdown Link</description>
+</snippet>

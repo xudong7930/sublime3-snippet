@@ -1,8 +1,9 @@
 <snippet>
 	<content><![CDATA[
-## ${1:head title}
+${1:markdown title}
+===================
 ]]></content>
-	<tabTrigger>md_head</tabTrigger>
+	<tabTrigger>md_title</tabTrigger>
 	<scope>text.html.markdown, text.html.markdown.multimarkdown</scope>
-	<description> ⌘ Markdown Header</description>
+	<description> ⌘ Markdown Title</description>
 </snippet>

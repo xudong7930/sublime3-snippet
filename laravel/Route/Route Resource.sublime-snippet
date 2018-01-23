@@ -1,7 +1,8 @@
 <snippet>
     <content><![CDATA[
-Route::resource('${1}', '${2}Controller');
+Route::resource('/${1}', '${2:Some}Controller');
 ]]></content>
-    <tabTrigger>rr</tabTrigger>
+    <tabTrigger>route_resource</tabTrigger>
     <scope>source.php</scope>
+    <description> ⌘ Laravel Route Resource</description>
 </snippet>

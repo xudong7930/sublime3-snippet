@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@inject('${1:state}', "App\Acme\Core\State")
+]]></content>
+	<tabTrigger>bl_inject</tabTrigger>
+	<scope>source.php, text.html</scope>
+	<description> ⌘ Blade Inject</description>
+</snippet>

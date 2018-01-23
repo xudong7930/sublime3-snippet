@@ -6,10 +6,10 @@ ${2:sublime snippet}
 ]${1}]></content>
 	<tabTrigger>${3:hello}</tabTrigger>
 	<scope>${4:source.php, text.html, text.plain}</scope>
-	<description> => ${5:Sublime Snippet You Have Never Used This!!! Go Go Go}</description>
+	<description> ⌘ ${5:Sublime Snippet You Have Never Used This!!! Go Go Go}</description>
 </snippet>
 ]]></content>
 	<tabTrigger>snippet</tabTrigger>
-	<scope>text.plain, text.xml</scope>
-	<description> => Sublime Snippet You Have Never Used This!!! Go Go Go</description>
+	<scope>text.xml, text.plain</scope>
+	<description> ⌘ Sublime Snippet Go! Go! Go!</description>
 </snippet>

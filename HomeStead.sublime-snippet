@@ -24,6 +24,6 @@ databases:
     - homestead
 ]]></content>
     <tabTrigger>homestead.yaml</tabTrigger>
-    <scope>source.yaml, text.plain</scope>
+    <scope>source.yaml</scope>
     <description> => Add New BSD license to a plain text file</description>
 </snippet>

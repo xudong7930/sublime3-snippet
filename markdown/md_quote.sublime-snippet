@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+> ${1:good good study, day day up}  
+]]></content>
+	<tabTrigger>md_quote</tabTrigger>
+	<scope>text.html.markdown, text.html.markdown.multimarkdown</scope>
+	<description> ⌘ Markdown Block Quote</description>
+</snippet>

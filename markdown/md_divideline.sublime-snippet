@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-## ${1:head title}
+-------
 ]]></content>
-	<tabTrigger>md_head</tabTrigger>
+	<tabTrigger>md_dvideline</tabTrigger>
 	<scope>text.html.markdown, text.html.markdown.multimarkdown</scope>
-	<description> ⌘ Markdown Header</description>
+	<description> ⌘ Markdown 分割线</description>
 </snippet>

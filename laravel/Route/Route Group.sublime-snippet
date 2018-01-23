@@ -1,9 +1,10 @@
 <snippet>
     <content><![CDATA[
-Route::group(['prefix'=>'${1}'], function () {
+Route::group(['prefix'=>'/${1}'], function () {
     ${2}
 });
 ]]></content>
-    <tabTrigger>rg</tabTrigger>
+    <tabTrigger>route_group</tabTrigger>
     <scope>source.php</scope>
+    <description> ⌘ Laravel Route Group</description>
 </snippet>
