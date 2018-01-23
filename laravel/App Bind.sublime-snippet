@@ -1,9 +1,0 @@
-<snippet>
-    <content><![CDATA[
-\$this->app->bind(Model::class, function (\$app) {
-            return new Model('15811448243');
-        });
-]]></content>
-    <tabTrigger>app_bind</tabTrigger>
-    <scope>source.php</scope>
-</snippet>

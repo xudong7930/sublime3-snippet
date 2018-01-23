@@ -1,6 +1,9 @@
 <snippet>
     <content><![CDATA[
-<textarea class="form-control" rows="3" name="${1:content}" placeholder=""></textarea>
+<div class="form-group">
+	<label for="" class="control-label">:</label>
+	<textarea class="form-control" rows="3" name="${1:content}" placeholder=""></textarea>
+</div>
 ]]></content>
     <tabTrigger>bt_textarea</tabTrigger>
     <scope>source.php,text.html</scope>

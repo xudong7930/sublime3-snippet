@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<link rel="stylesheet" href="https://ehd4.f3322.net/youtube/fontawesome470/css/font-awesome.min.css" />
+]]></content>
+	<tabTrigger>bt_fontawesome</tabTrigger>
+	<scope>source.php, text.html</scope>
+	<description> ⌘ Font Awesome</description>
+</snippet>

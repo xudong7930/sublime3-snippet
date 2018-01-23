@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<a href="${1}" class="${2}">${3:some_link}</a>
+]]></content>
+	<tabTrigger>bt_link</tabTrigger>
+	<scope>source.php, text.html</scope>
+	<description> ⌘ Bootstrap A Link</description>
+</snippet>

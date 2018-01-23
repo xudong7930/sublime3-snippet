@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-return back()->withInput();
+return back()->withErrors()->withInput();
 ]]></content>
     <tabTrigger>res_back</tabTrigger>
     <scope>source.php</scope>

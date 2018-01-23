@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+{{ old('${1:email}') ?? ${2:\$user->email} }}
+]]></content>
+	<tabTrigger>bl_var_edit</tabTrigger>
+	<scope>source.php, text.html</scope>
+	<description> ⌘ Blade Form Value Edit</description>
+</snippet>

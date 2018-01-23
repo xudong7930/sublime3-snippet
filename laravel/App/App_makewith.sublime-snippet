@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+app()->makeWith('${1}');
+]]></content>
+	<tabTrigger>app_resolve</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ App Resolve MakeWith</description>
+</snippet>

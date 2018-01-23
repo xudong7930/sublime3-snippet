@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+app()->instance('${1}', ${2:Instance})
+]]></content>
+	<tabTrigger>app_bind</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ App Bind Instance</description>
+</snippet>
