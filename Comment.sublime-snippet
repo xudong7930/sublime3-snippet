@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * ${1}
+ * 
+ * @param	${2:type}	${3:description}
+ * @return 	${4:void}
+ */
+]]></content>
+	<tabTrigger>/**</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ Code Multiple Comment</description>
+</snippet>

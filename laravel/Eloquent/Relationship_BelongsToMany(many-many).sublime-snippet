@@ -2,7 +2,7 @@
     <content><![CDATA[
 public function ${1:blogs}()
 {
-    return \$this->belongsToMany(${2:Blog}::class, '${3:middleTable}', '${4:foreignKey}', '${5:relatedKey}');
+    return \$this->belongsToMany(${2:Blog}::class, '${3:middleTable}', '${4:foreignKey}', '${5:relatedKey}')->withTimestamps();
 }
 ]]></content>
     <tabTrigger>el_relation</tabTrigger>
