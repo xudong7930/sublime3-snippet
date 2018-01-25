@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+protected function validation(\$request)
+{
+    return \$this->validate(\$request, [
+    	'email' => 'required'${1}
+    ], [
+    	'email.required' => 'email字段必须',
+    ]);
+}
+
+
+]]></content>
+	<tabTrigger>fm_validate</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ Laravel Form Validate </description>
+</snippet>

@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-Cache::add('${1:key}', '{$2:value}', ${3:minutes});
+Cache::add('${1:key}', '${2:value}', ${3:expire|minutes});
 ]]></content>
     <tabTrigger>cache_set</tabTrigger>
     <scope>source.php</scope>
