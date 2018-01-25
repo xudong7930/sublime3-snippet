@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+app()->isLocale('${1:en}');
+]]></content>
+	<tabTrigger>locale_is</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ Laravel Locale Is </description>
+</snippet>

@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-session('${1:key}');
+session('${1:key}', ${2:default_value});
 ]]></content>
     <tabTrigger>sess_get</tabTrigger>
     <scope>source.php</scope>

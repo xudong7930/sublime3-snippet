@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+app()->setLocale('${1:en}');
+]]></content>
+	<tabTrigger>locale_set</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ Laravel Locale Set</description>
+</snippet>

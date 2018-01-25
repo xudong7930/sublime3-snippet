@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+session()->all()
+]]></content>
+	<tabTrigger>sess_all</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ Session All</description>
+</snippet>

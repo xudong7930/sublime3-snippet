@@ -1,7 +1,8 @@
 <snippet>
     <content><![CDATA[
-session('${1:key}', '${2:value}');
+session()->put('${1:key}', '${2:value}')
 ]]></content>
     <tabTrigger>sess_set</tabTrigger>
     <scope>source.php</scope>
+    <description> ⌘ Session Set</description>
 </snippet>

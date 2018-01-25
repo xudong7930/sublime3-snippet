@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+session()->exists('${1:key}')
+]]></content>
+	<tabTrigger>sess_exists</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ Session Exists</description>
+</snippet>

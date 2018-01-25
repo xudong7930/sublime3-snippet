@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+session()->pull('${1:key}', '${2:value}')
+]]></content>
+	<tabTrigger>sess_pull</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ Session Get&Delete</description>
+</snippet>

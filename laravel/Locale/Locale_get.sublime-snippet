@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+app()->getLocale()
+]]></content>
+	<tabTrigger>locale_get</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ Laravel Locale Get</description>
+</snippet>

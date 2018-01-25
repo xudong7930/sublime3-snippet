@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+session()->has('${1:key}')
+]]></content>
+	<tabTrigger>sess_has</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ Session Has</description>
+</snippet>
