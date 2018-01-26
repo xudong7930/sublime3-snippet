@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+if (Auth::check()) {
+	${1}
+}
+]]></content>
+	<tabTrigger>auth_check</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ Auth Check</description>
+</snippet>

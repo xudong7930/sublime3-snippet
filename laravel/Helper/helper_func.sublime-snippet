@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+if (! function_exists('${1}')) {
+	function ${1}(${2}) {
+		${3}
+	}
+}
+]]></content>
+	<tabTrigger>helper_func</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ Laravel Helper Function</description>
+</snippet>

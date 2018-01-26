@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+cache(['${1:key}' => '${2:value}'], ${3:expire|minute});
+]]></content>
+	<tabTrigger>cache_set</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ Cache Set Func </description>
+</snippet>

@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-if(! auth()->attempt(request(['email', 'password']))) {
+if(! auth()->attempt(request(['email', 'password']), ${1:remember})) {
     return back();
     return back()->withErrors(['message'=>'username or password not right']);
 }

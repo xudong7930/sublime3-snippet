@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-$email = auth()->user()->email;
+\$email = auth()->user()->email;
 ]]></content>
      <tabTrigger>auth_user</tabTrigger>
      <scope>source.php</scope>

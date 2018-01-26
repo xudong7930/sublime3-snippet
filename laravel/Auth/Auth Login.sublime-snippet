@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-auth()->login(\$user);
+auth()->login(\$user, false);
 ]]></content>
      <tabTrigger>auth_login</tabTrigger>
      <scope>source.php</scope>

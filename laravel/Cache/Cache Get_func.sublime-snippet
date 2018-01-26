@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+cache('${1:key}', ${2:default_value});
+]]></content>
+	<tabTrigger>cache_get</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ Cache Get Func</description>
+</snippet>

@@ -13,5 +13,5 @@ protected function validation(\$request)
 ]]></content>
 	<tabTrigger>fm_validate</tabTrigger>
 	<scope>source.php</scope>
-	<description> ⌘ Laravel Form Validate </description>
+	<description> ⌘ Laravel Form Validate Func </description>
 </snippet>
