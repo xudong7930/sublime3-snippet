@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+auth()->guard('${1:web}')
+]]></content>
+	<tabTrigger>auth_guard</tabTrigger>
+	<scope>source.php, text.html</scope>
+	<description> ⌘ Auth Guard </description>
+</snippet>

@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 <ol class="breadcrumb">
-    <li><a href="${1}">${2}</a></li>
+    <li class="active"><a href="#">${1}</a></li>
 </ol>
 ]]></content>
     <tabTrigger>bt_breadcrumb</tabTrigger>

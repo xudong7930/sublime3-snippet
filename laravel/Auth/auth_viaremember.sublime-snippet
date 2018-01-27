@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+if (auth()->viaRemember()) {
+	${1}
+}
+]]></content>
+	<tabTrigger>auth_via</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ Auth viaRemember </description>
+</snippet>

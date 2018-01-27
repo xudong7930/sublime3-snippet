@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+Auth::extend('${1:jwt}', function(\$app, \$name, array \$config) {
+    // place in AuthServiceProvider@boot
+    // Return an instance of Illuminate\Contracts\Auth\Guard
+    return new JwtGuard(\$app, \$name, \$config);
+});
+]]></content>
+	<tabTrigger>auth_custom_guard</tabTrigger>
+	<scope>source.php, text.html</scope>
+	<description> ⌘ Laravel Auth Custom Guard </description>
+</snippet>

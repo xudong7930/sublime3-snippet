@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<form id="logout-form" action="/logout" method="POST" class="hide">{{ csrf_field() }} {{ method_field('DELETE') }}</form>
+<a href="/logout" onclick="event.preventDefault();document.getElementById('logout-form').submit()">Logout</a>
+]]></content>
+	<tabTrigger>link_logout</tabTrigger>
+	<scope>source.php, text.html</scope>
+	<description> ⌘ Link Logout </description>
+</snippet>
