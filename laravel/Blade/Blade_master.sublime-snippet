@@ -4,8 +4,9 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <meta name=description content="" />
-    <meta name=viewport content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
     <link rel="stylesheet" href="https://ehd4.f3322.net/youtube/bootstrap337/css/bootstrap.min.css">
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script type="text/javascript" src="https://ehd4.f3322.net/youtube/bootstrap337/js/bootstrap.min.js"></script>
@@ -20,12 +21,10 @@
 
     <div id="main" class="row">
 
-        <!-- sidebar content -->
         <div id="sidebar" class="col-md-4">
             @include('partials.sidebar')
         </div>
 
-        <!-- main content -->
         <div id="content" class="col-md-8">
             @yield('content')
         </div>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<img src="${1}" alt="${2}" class="${3}">
+]]></content>
+	<tabTrigger>bt_img</tabTrigger>
+	<scope>source.php, text.html</scope>
+	<description> ⌘ Bootstrap Image </description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<span class="glyphicon glyphicon-${1:search}" aria-hidden="true"></span>
+]]></content>
+	<tabTrigger>bt_icon</tabTrigger>
+	<scope>source.php, text.html</scope>
+	<description> ⌘ Bootstrap Glyphicon Icon</description>
+</snippet>

@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-namepsace ${1:Acme\Trait\SomeTrait};
+namepsace ${1:App\Acme\Trait\SomeTrait};
 
 trait ${2:SomeTrait} {
     ${3}

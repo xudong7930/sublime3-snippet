@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<div class="radio">
+	<label>
+		<input type="radio" name="${1}" value="${2}">
+		${3: remember me}
+	</label>
+</div>
+
+
+]]></content>
+	<tabTrigger>bt_radio</tabTrigger>
+	<scope>source.php, text.html</scope>
+	<description> ⌘ Bootstrap Radio </description>
+</snippet>

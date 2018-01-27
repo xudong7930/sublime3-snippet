@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<p class="text-${2:muted|primary|danger|success|info|warning}">${1}</p>
+]]></content>
+	<tabTrigger>bt_text</tabTrigger>
+	<scope>source.php, text.html</scope>
+	<description> ⌘ Bootstrap Text </description>
+</snippet>

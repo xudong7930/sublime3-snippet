@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<div class="container${1:-fluid}">
+	${2}
+</div>
+]]></content>
+	<tabTrigger>bt_container</tabTrigger>
+	<scope>source.php, text.html</scope>
+	<description> ⌘ Bootstrap Container</description>
+</snippet>

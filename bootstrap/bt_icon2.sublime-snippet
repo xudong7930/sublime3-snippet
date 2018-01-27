@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<i class="fa fa-${1:home}" aria-hidden="true">
+]]></content>
+	<tabTrigger>bt_icon</tabTrigger>
+	<scope>source.php, text.html</scope>
+	<description> ⌘ Font Awesome Icon </description>
+</snippet>

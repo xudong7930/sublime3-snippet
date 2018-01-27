@@ -1,11 +1,14 @@
 <snippet>
-    <content><![CDATA[
+	<content><![CDATA[
 <div class="checkbox">
-    <label>
-        <input type="checkbox" name="${1}"> ${2}
-    </label>
+	<label>
+		<input type="checkbox" name="${1}" value="${2}">
+		${3: remember me}
+	</label>
 </div>
+
 ]]></content>
-    <tabTrigger>bt_checkbox</tabTrigger>
-    <scope>text.html,source.php</scope>
+	<tabTrigger>bt_checkbox</tabTrigger>
+	<scope>source.php, text.html</scope>
+	<description> ⌘ Bootstrap Checkbox </description>
 </snippet>

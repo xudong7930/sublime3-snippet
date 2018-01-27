@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+${1:NAME}.sublime-snippet
+]]></content>
+	<tabTrigger>n</tabTrigger>
+	<scope>text.plain</scope>
+	<description> ⌘ Sublime Snippet Filename </description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<button class="btn btn-default" type="button">${1:Button}</button>
+]]></content>
+	<tabTrigger>bt_button</tabTrigger>
+	<scope>source.php, text.html</scope>
+	<description> ⌘ Bootstrap Button </description>
+</snippet>

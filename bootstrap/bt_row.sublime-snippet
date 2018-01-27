@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<div class="row">
+	<div class="col-md-6 col-md-offset-3">${1}</div>
+</div>
+]]></content>
+	<tabTrigger>bt_row</tabTrigger>
+	<scope>source.php, text.html</scope>
+	<description> ⌘ Bootstrap Row </description>
+</snippet>

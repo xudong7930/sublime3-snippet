@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<div class="embed-responsive embed-responsive-16by9">
+	<iframe class="embed-responsive-item" src="${1}"></iframe>
+</div>
+
+]]></content>
+	<tabTrigger>bt_embed</tabTrigger>
+	<scope>source.php, text.html</scope>
+	<description> ⌘ Bootstrap Iframe Embed</description>
+</snippet>

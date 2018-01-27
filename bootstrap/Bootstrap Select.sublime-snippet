@@ -1,8 +1,13 @@
 <snippet>
     <content><![CDATA[
-<select class="form-control" name="${1}">
-    ${2}
-</select>
+<div class="form-group">
+	<label for="${2:select_id}">${1:Select}:</label>
+	<select id="${2:select_id}" class="form-control" name="${3}">
+		<option></option>
+	</select>
+</div>
+
+
 ]]></content>
     <tabTrigger>bt_select</tabTrigger>
     <scope>text.html,source.php</scope>

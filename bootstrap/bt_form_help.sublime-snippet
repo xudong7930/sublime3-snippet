@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<span class="help-block">${1:invalid username.}</span>
+]]></content>
+	<tabTrigger>bt_help</tabTrigger>
+	<scope>source.php, text.html</scope>
+	<description> ⌘ Bootstrap Form Helper</description>
+</snippet>
