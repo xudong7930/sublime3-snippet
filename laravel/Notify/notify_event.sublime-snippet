@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+// place this line to EventServiceProvider.php
+protected \$listen = [
+    'Illuminate\Notifications\Events\NotificationSent' => [
+        'App\Listeners\LogNotification',
+    ]
+];
+
+public function handle(NotificationSent \$event)
+{
+    // place this method to event_listener@handle
+    // $event->channel;
+    // $event->notifiable;
+    // $event->notification;
+}
+
+]]></content>
+	<tabTrigger>notify_event</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ Notify Event </description>
+</snippet>

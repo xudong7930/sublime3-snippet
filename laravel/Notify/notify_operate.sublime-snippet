@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+\$user->notifications|unreadNotifications()
+	->markAsRead()
+	->update(['read_at' => Carbon::now()])
+	->delete();
+]]></content>
+	<tabTrigger>notify_opt</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ Database Notify Operate </description>
+</snippet>

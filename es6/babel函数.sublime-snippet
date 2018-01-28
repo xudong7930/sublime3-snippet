@@ -5,5 +5,5 @@ ${1}(${2}) {
 }
 ]]></content>
      <tabTrigger>func</tabTrigger>
-     <scope>source.js,text.html</scope>
+     <scope>source.js</scope>
 </snippet>

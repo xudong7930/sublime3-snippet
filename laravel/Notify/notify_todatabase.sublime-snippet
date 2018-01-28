@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+public function toDatabase(\$notifiable)
+{
+    // do not forgot run: php artisan notifications:table
+    return [
+        'lesson' => \$this->lesson
+    ];
+}
+
+]]></content>
+	<tabTrigger>notify_to</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ Notify ToDatabase </description>
+</snippet>

@@ -5,5 +5,6 @@ function(${1}) {
 }
 ]]></content>
      <tabTrigger>func_anonymous</tabTrigger>
-     <scope>source.js,text.html</scope>
+     <scope>source.js</scope>
+     <description>Babel Anonymous Function </description>
 </snippet>

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+use Notifiable;
+
+]]></content>
+	<tabTrigger>notify_notiable</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ Laravel Notifiable Trait</description>
+</snippet>

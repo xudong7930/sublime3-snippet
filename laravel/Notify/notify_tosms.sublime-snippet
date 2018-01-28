@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+class AliDayuSMSChannel 
+{
+    public function send(\$notifiable, Notification \$notification)
+    {
+    	// place this file to App/Channels/AliDayuSMSChannel.php
+        \$data = \$notification->toAliDayuSMS(\$notifiable);
+        (new Alidayu)->send(\$data);
+    }
+}
+
+public function to${1:AliDayuSMS}(\$notifiable)
+{
+	// via() should: return [AliDayuSMSChannel::class];
+    retrun [
+        'from' => '15811448243'
+    ];
+}
+
+]]></content>
+	<tabTrigger>notify_to</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ Notify ToCustomChannel </description>
+</snippet>

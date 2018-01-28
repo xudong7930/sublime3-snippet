@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+public function toBroadcast($notifiable)
+    {
+        return new BroadcastMessage(['lesson' => $this->lesson])
+            ->onConnection('redis')
+            ->onQueue('broadcasts');
+    }
+]]></content>
+	<tabTrigger>notify_to</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ Notify ToBoradcast </description>
+</snippet>

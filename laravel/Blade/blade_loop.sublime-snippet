@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+{{ \$loop->${1:index|fisrt|last|remaining|iteration|count} }}
+]]></content>
+	<tabTrigger>bl_loop</tabTrigger>
+	<scope>source.php, text.html</scope>
+	<description> ⌘ Blade Loop Variable </description>
+</snippet>

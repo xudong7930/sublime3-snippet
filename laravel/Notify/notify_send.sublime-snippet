@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$user->notify(new ${1:LessonPublished}(\$lesson));
+]]></content>
+	<tabTrigger>notify_send</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ User Send Notify</description>
+</snippet>
