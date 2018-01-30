@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+Artisan::command('generate:model {name}', function () {
+    \$name = \$this->argument('name');
+    File::put("app/Acme/{\$name}.php", "<?php");
+    exec('touch app/Acme/' . \$name . '.php');
+    \$this->info('done!');
+    ${1}
+})->describe('Generate some new model goes here');
+
+]]></content>
+	<tabTrigger>cmd_new</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ New Console Command </description>
+</snippet>

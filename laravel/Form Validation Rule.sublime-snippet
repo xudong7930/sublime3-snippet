@@ -17,7 +17,8 @@
     'terms' => 'accepted',
     'other' => [
         'required',
-        new DomainValidate()
+        new DomainValidate(),
+        Rule::unique('users', 'email')->ignore($id)->where(function ($query) {})
     ]
 ]);
 ]]></content>

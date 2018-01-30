@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$name = \$this->choice('What is your name?', ['Taylor', 'Dayle'], 'default_value');
+]]></content>
+	<tabTrigger>cmd_choice</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ Artisan Command Choice </description>
+</snippet>

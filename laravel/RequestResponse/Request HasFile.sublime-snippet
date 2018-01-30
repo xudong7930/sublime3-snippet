@@ -1,7 +1,12 @@
 <snippet>
     <content><![CDATA[
-if (\$request->hasFile('${1}')) {
-    ${2}
+if (\$request->hasFile('${1}') && \$request->file('${1}')->isValid()) {
+	\$file = \$request->file('${1}');
+    \$ext = \$file->getClientOriginalExtension();
+    \$fileName = \$file->getClientOriginalName();
+    \$newFileName =  'file_' . date('YmdHis'). random_int(1000, 9999) . '.' . \$ext;
+    \$path = \$file->storeAs('${2:public}', \$newFileName);
+    ${3}
 }
 ]]></content>
     <tabTrigger>req_hasfile</tabTrigger>

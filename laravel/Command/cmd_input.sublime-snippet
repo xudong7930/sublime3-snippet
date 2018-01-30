@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$name = \$this->ask('what is your name?');
+]]></content>
+	<tabTrigger>cmd_ask</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ Command Ask For Input </description>
+</snippet>

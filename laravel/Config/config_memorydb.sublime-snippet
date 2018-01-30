@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+DB_CONNECTION=sqlite
+DB_DATABASE=:memory:
+]]></content>
+	<tabTrigger>conf_memorydb</tabTrigger>
+	<scope>source.ini, text.plain</scope>
+	<description> ⌘ Config Memory Databse </description>
+</snippet>

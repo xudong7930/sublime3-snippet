@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+Mail::fake();
+
+\$this->get('/mock/mail');
+\$user = \App\User::first();
+
+Mail::assertSent(WelcomeToLaravel::class, function (\$e) use (\$user) {
+    return \$e->user->email == \$user->email;
+});
+]]></content>
+	<tabTrigger>mock_mail</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ Mock Mail Testing </description>
+</snippet>

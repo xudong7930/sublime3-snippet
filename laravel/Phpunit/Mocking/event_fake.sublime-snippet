@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+Event::fake();
+
+\$this->get('/evt');
+\$user = \App\User::find(1);
+
+Event::assertDispatched(UserSignedIn::class, function (\$e) use(\$user) {
+	// see EventFake.php
+    return \$e->data->id == \$user->id;
+});
+
+Event::assertNotDispatched(UserSignedIn::class);
+]]></content>
+	<tabTrigger>mock_event</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ Event Fake Testing </description>
+</snippet>

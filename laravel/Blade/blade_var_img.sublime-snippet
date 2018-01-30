@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+{{ url('storage/{1:avatar.png}') }}
+]]></content>
+	<tabTrigger>bl_var_img</tabTrigger>
+	<scope>source.php, text.html</scope>
+	<description> ⌘ Blade Var Image</description>
+</snippet>

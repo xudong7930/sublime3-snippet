@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$this->table(['header-colomn1', 'header-colomn2'], ${2});
+]]></content>
+	<tabTrigger>cmd_table</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ Command Table Output </description>
+</snippet>

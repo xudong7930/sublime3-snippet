@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+\$exitCode = Artisan::call('command:name', [
+    '--force' => true,
+    'user' => 1,
+    '--id' => [1, 2],
+]);
+]]></content>
+	<tabTrigger>cmd_call</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ Command Call In Code</description>
+</snippet>

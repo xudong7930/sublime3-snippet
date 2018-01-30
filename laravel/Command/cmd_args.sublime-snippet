@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+\$name = \$this->arguments('${1:name}');
+
+]]></content>
+	<tabTrigger>cmd_args</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ Command Arguments </description>
+</snippet>

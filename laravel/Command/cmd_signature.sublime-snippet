@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+protected \$signature = 'command:name {param : The ID of the user} {param_default=value} {param_optional?} {param_array*}
+                            {--trim|--T : Whether of the job} {--queue_musthas_value=} {--queue_default=value} {--queue_array=*}';
+
+]]></content>
+	<tabTrigger>cmd_signature</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ Command Signature</description>
+</snippet>

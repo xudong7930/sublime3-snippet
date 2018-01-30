@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$this->info|error|line|question|comment('${1:Display some info}');
+]]></content>
+	<tabTrigger>cmd_info</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ Command Output Info </description>
+</snippet>
