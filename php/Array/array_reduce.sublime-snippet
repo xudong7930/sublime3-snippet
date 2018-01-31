@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+\$result = array_reduce(${1:[1,2]}, function(\$carry, \$item) {
+	${3}
+    return \$carry + \$item;        
+}, ${2:\$carry的初始值});
+]]></content>
+     <tabTrigger>arr_reduce</tabTrigger>
+     <scope>source.php</scope>
+     <description> ⌘ ArrayFunc: array_reduce</description>
+</snippet>

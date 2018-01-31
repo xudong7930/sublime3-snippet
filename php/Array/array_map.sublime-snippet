@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+array_map(function (${2:\$item}) {
+    ${3: //operate each item}
+}, ${1:[]});
+]]></content>
+	<tabTrigger>arr_map</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ ArrayFunc: array_map</description>
+</snippet>

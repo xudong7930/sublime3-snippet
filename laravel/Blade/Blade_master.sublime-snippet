@@ -1,15 +1,23 @@
 <snippet>
 	<content><![CDATA[
 <!Doctype html>
-<html>
+<html lang="{{ config('app.locale') }}">
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
+    <title>{{ config('app.name', 'Laravel') }}</title>
     
     <link rel="stylesheet" href="https://ehd4.f3322.net/youtube/bootstrap337/css/bootstrap.min.css">
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script type="text/javascript" src="https://ehd4.f3322.net/youtube/bootstrap337/js/bootstrap.min.js"></script>
+
+    <script>
+        window.Laravel = {!! json_encode(['csrfToken' => csrf_token() ]) !!};
+    </script>
+    
     @include('partials.head')
 </head>
 <body>

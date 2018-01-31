@@ -7,4 +7,5 @@ protected \$casts = [
 ]]></content>
     <tabTrigger>el_cast</tabTrigger>
     <scope>source.php</scope>
+    <description> ⌘ Eloquen Attribute Type Casting </description>
 </snippet>

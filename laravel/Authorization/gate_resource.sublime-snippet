@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+Gate::resource('posts', 'PostPolicy', [
+	'create' => 'createPost'
+]);
+]]></content>
+	<tabTrigger>gate_resource</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ Authroize Gate Resource </description>
+</snippet>

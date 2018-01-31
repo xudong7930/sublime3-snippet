@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\$option = \$this->options('${1:options}');
+\$option = \$this->option('${1:options}');
 ]]></content>
 	<tabTrigger>cmd_option</tabTrigger>
 	<scope>source.php</scope>

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+if (Gate::${1:allows|denies}('update-post', \$post)) {
+	// current user can | cannot do this.
+}
+]]></content>
+	<tabTrigger>gate_allow</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ Authorize Gate Allow </description>
+</snippet>

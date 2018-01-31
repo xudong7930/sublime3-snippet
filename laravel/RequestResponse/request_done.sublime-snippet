@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+return 'done';
+]]></content>
+	<tabTrigger>res_done</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ Response Done </description>
+</snippet>

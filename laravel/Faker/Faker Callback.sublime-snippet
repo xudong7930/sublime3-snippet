@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
 function () use(\$faker) {
-    \$ids = User::all()->pluck('id');
-    return \$faker->randomElement(\$ids->toArray());
+	return factory(User::class)->create()->id;
+    return \$faker->randomElement(User::all()->pluck('id')->toArray());
 },
 ]]></content>
     <tabTrigger>fk_callback</tabTrigger>

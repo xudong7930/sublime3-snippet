@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+Gate::define('post.create', function (\$user, \$post) {
+    return \$user->id == \$post->user_id;
+});
+Gate::define('gate_name', "App\Acme\SomePolicy@update");
+]]></content>
+	<tabTrigger>gate_define</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ Authorize Gate Define </description>
+</snippet>

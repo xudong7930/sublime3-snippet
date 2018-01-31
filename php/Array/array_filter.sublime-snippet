@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+\$result = array_filter(${1:[11, 22]}, function (\$item) {
+	${2: //operate item then return bool}
+    return true;
+});
+]]></content>
+	<tabTrigger>arr_filter</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ ArrayFunc: array_filter </description>
+</snippet>
