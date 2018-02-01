@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$lastOne = array_pop(${1:[]});
+]]></content>
+	<tabTrigger>arr_pop</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ 删除并返回数组中最后一个元素 </description>
+</snippet>

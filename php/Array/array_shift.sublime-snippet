@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$firstOne = array_shift(${1:[]});
+]]></content>
+	<tabTrigger>arr_shift</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ 删除并返回数组中第一个元素 </description>
+</snippet>

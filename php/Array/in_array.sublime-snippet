@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+if (in_array(${1:Item}, ${2:Array})) {
+    ${3}
+}
+]]></content>
+	<tabTrigger>arr_in</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ 判断数组中是否存在指定值,返回Bool</description>
+</snippet>

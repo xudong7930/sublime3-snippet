@@ -7,5 +7,5 @@
 ]]></content>
      <tabTrigger>arr_reduce</tabTrigger>
      <scope>source.php</scope>
-     <description> ⌘ ArrayFunc: array_reduce</description>
+     <description> ⌘ 对数组中每个元素累计操作,返回结果</description>
 </snippet>

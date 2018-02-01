@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = substr(${1:string}, ${2:start_index}, ${3:length});
+]]></content>
+	<tabTrigger>str_substr</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ 截取指定索引后的字符串,返回String</description>
+</snippet>

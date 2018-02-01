@@ -7,5 +7,5 @@
 ]]></content>
 	<tabTrigger>arr_filter</tabTrigger>
 	<scope>source.php</scope>
-	<description> ⌘ ArrayFunc: array_filter </description>
+	<description> ⌘ 对数组中每个元素过滤操作,返回新数组 </description>
 </snippet>

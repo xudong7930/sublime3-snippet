@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+array_walk(${1:[]}, function (${2:\$item}) {
+    ${3: //operate each item}
+});
+]]></content>
+	<tabTrigger>arr_walk</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ 仅对数组中的每个元素操作,无返回 </description>
+</snippet>

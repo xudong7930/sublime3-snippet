@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = str${1:i}pos(${2:string}, ${3:search});
+]]></content>
+	<tabTrigger>str_pos</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ 查找字符串首次出现的位置,返回索引值</description>
+</snippet>

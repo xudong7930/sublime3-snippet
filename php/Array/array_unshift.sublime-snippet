@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+array_unshift(${1:[]}, '${2:value}');
+]]></content>
+	<tabTrigger>arr_unshift</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ 数组开头插入一个或多个元素,无返回 </description>
+</snippet>

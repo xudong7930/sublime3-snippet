@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$result = explode('${1:分隔符}', ${2:Array});
+]]></content>
+	<tabTrigger>str_explode</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ 字符串分割为数组,返回数组 </description>
+</snippet>

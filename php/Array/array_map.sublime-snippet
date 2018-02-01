@@ -1,10 +1,11 @@
 <snippet>
 	<content><![CDATA[
-array_map(function (${2:\$item}) {
+\$result = array_map(function (${2:\$item}) {
     ${3: //operate each item}
+    return \$item;
 }, ${1:[]});
 ]]></content>
 	<tabTrigger>arr_map</tabTrigger>
 	<scope>source.php</scope>
-	<description> ⌘ ArrayFunc: array_map</description>
+	<description> ⌘ 对数组中每个元素操作,返回新数组</description>
 </snippet>
