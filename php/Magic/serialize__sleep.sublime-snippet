@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+public function __sleep()
+{
+	// 对一个对象序列化时(调用serialize())会被调用。它不接收任何参数, 返回一个包含所有应该被序列化的属性的数组
+    ${2}
+}
+
+]]></content>
+	<tabTrigger>magic</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ __SLEEP Magic Method </description>
+</snippet>

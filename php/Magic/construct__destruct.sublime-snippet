@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+public function __destruct()
+{
+	// called when unset, end of script, reset value; no parameter
+    ${2}
+}
+
+
+]]></content>
+	<tabTrigger>magic</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ __DESTRUCT Magic Method </description>
+</snippet>

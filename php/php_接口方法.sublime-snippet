@@ -4,5 +4,5 @@ public function ${1:somename}(${2:\$param});
 ]]></content>
 	<tabTrigger>meti</tabTrigger>
 	<scope>source.php</scope>
-	<description> ⌘ PHP Interface Func 接口方法体 </description>
+	<description> ⌘ PHP接口方法体 </description>
 </snippet>

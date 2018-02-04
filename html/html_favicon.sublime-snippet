@@ -3,6 +3,6 @@
 <link rel="icon" href="data:;base64,${1:iVBORw0KGgo}=">
 ]]></content>
 	<tabTrigger>html_favicon</tabTrigger>
-	<scope>source.php, text.html</scope>
+	<scope>text.html</scope>
 	<description> ⌘ Html No Favicon </description>
 </snippet>

@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+public function __unset(\$property)
+{
+	// 调用unset()函数销毁一个不能访问的属性时会被调用，它接收一个参数，表述属性的名字
+    ${2}
+}
+
+]]></content>
+	<tabTrigger>magic</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ __UNSET Magic Method </description>
+</snippet>

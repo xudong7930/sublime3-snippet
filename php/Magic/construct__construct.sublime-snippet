@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+public function __construct(${1:\$param})
+{
+	// called when object created.
+    ${2}
+}
+
+]]></content>
+	<tabTrigger>magic</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ __CONSTRUCT Magic Method </description>
+</snippet>

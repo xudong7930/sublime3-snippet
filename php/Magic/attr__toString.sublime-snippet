@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+public function __toString()
+{
+	// 将对象当作字符串一样使用时会被调用，它不接收任何参数, 返回字符串
+    ${2}
+}
+
+]]></content>
+	<tabTrigger>magic</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ __toString Magic Method </description>
+</snippet>

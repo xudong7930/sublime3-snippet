@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+public function __isset(\$property)
+{
+	// 对一个不可访问的属性调用isset()方法时会被调用，它接收一个参数，表示属性的名字, 返回Bool
+    ${1}
+    
+    return false;
+}
+
+]]></content>
+	<tabTrigger>magic</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ __ISSET Magic Method </description>
+</snippet>

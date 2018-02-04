@@ -6,5 +6,5 @@ ${1}(${2}) {
 
 ]]></content>
     <tabTrigger>met</tabTrigger>
-    <scope>source.vue, text.html, source.js</scope>
+    <scope>source.vue, source.js</scope>
 </snippet>

@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+public function __set(\$property, \$value)
+{
+    if (property_exists(\$this, \$property)) {
+		\$this->property = \$value;
+    }
+
+    // 尝试修改一个不可访问的属性时会被调用,接收两个参数，一个表示属性的名字，一个表示属性的值
+    ${2}
+}
+
+]]></content>
+	<tabTrigger>magic</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ __SET Magic Method </description>
+</snippet>

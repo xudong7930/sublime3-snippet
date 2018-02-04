@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+public function __call(\$method, \$parameters)
+{	
+	// 调用不存在或不可访问的方法时会被调用,它接收两个参数，一个是调用的方法的名字，一个是包含函数参数的数组
+	${2}
+	if (method_exists(\$this, \$method)) {
+    	return call_user_func_array([\$this, \$method], \$parameters);
+    }
+
+    return null;
+}
+
+]]></content>
+	<tabTrigger>magic</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ __CALL Magic Method </description>
+</snippet>

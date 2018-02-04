@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+public function __get(\$property)
+{
+    if (property_exists(\$this, \$property)) {
+    	return \$this->\$property;
+    }
+
+    // 尝试访问一个不存在的属性时会被调用, 仅接收一个参数
+    ${2}
+
+    return null;
+}
+
+
+]]></content>
+	<tabTrigger>magic</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ __GET Magic Method </description>
+</snippet>

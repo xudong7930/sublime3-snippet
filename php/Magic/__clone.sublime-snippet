@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+public function __clone()
+{
+	// 当对一个对象使用clone关键字时，该魔术方法会被调用, 此时可以对该对象里面的对象进行克隆
+    ${1}
+}
+
+]]></content>
+	<tabTrigger>magic</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ __CLONE Magic Method </description>
+</snippet>
