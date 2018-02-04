@@ -4,8 +4,12 @@ namespace ${1:App\Acme\Repository};
 
 interface ${2:Repository}
 {
+    //  可以有常量, 但不推荐. 不能有变量
+    const VERSION = 1.0;
+
 	/**
      * Get the specified configuration value.
+     * 只能声明方法体
      *
      * @param  array|string  $key
      * @param  mixed   $default

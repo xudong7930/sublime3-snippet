@@ -3,5 +3,5 @@
 import ${1} from '${2}';
 ]]></content>
      <tabTrigger>imp</tabTrigger>
-     <scope>source.js,text.html</scope>
+     <scope>source.js</scope>
 </snippet>

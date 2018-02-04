@@ -5,5 +5,5 @@ find((item) => {
 });
 ]]></content>
      <tabTrigger>find</tabTrigger>
-     <scope>source.js,text.html</scope>
+     <scope>source.js</scope>
 </snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+public ${1:\$variable} ${2:= null};
+]]></content>
+	<tabTrigger>attr_public</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ Class Attr Public</description>
+</snippet>

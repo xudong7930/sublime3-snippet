@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+
+namespace ${1:App\Acme\UseCases};
+
+abstract class ${2:SomeCase}
+{
+    public static function perform()
+    {
+        return (new static)->handle();
+    }
+    
+    /**
+     * 抽象类不能被实例化,子类继承抽象类,如果实现了父类的抽象方法,则可以被实例化,否则必须加abstract成为抽象类
+     * 
+     * @param    type    description
+     * @return     void
+     */
+    abstract public function handle();
+}
+]]></content>
+	<tabTrigger>php_abstract</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ PHP Abstract 抽象类 </description>
+</snippet>

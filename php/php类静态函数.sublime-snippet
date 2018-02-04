@@ -2,6 +2,9 @@
     <content><![CDATA[
 public static function ${1}(${2})
 {
+	// \$self = new static;
+	// \$data = \$self->data;
+	// \$data = self::\$data;
     ${3}
 }
 

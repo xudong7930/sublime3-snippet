@@ -5,5 +5,5 @@ findIndex((item) => {
 });
 ]]></content>
      <tabTrigger>findIndex</tabTrigger>
-     <scope>source.js,text.html</scope>
+     <scope>source.js</scope>
 </snippet>

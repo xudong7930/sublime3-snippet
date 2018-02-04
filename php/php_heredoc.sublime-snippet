@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+${1:\$content} = <<<EOF
+${2}
+EOF;
+]]></content>
+	<tabTrigger>php_heredoc</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ PHP HereDoc </description>
+</snippet>
