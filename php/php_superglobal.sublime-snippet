@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$_POST, \$_GET, \$_REQUEST, \$_SERVER, \$_FILES, \$_ENV, \$_COOKIE, \$_SESSION, \$GLOBALS
+]]></content>
+	<tabTrigger>php_sp</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ PHP超全局变量 </description>
+</snippet>

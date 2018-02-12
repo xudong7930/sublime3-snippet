@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+\$name = \$_FILES['avatar']['name'];
+\$size = \$_FILES['avatar']['size']/1000;
+\$ext = strtolower(pathinfo(basename(\$_FILES["avatar"]["name"]), PATHINFO_EXTENSION));
+\$result = move_uploaded_file(\$_FILES['avatar']['tmp_name'], "/tmp/mk_avatar.jpg");
+${1}
+]]></content>
+	<tabTrigger>file_upload</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ PHP文件上传,返回Bool </description>
+</snippet>

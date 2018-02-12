@@ -1,0 +1,37 @@
+<snippet>
+	<content><![CDATA[
+server {
+	listen 80;
+	listen [::]:80;
+	
+	server_name \${1:laravel.io www.laravel.io};
+	root \${2:/var/www/project-name/public};
+	index index.php index.html index.htm;
+
+	charset utf-8;
+	sendfile off;
+
+	access_log off;
+	# access_log /path/to/nginx/access.log
+	# error_log /path/to/nginx/error.log
+
+	location / {try_files \$uri \$uri/ /index.php?\$query_string;}
+	location = /favicon.ico { access_log off; log_not_found off; }
+	location = /robots.txt  { access_log off; log_not_found off; }
+	location ~ /\.ht {deny all; }
+
+	location ~ \.php\$ {
+		fastcgi_split_path_info ^(.+\.php)(/.+)\$;
+        # fastcgi_pass unix:/var/run/php/php7.0-fpm.sock;
+        fastcgi_pass 127.0.0.1:9000;
+        fastcgi_index index.php;
+        include fastcgi_params;
+        fastcgi_param SCRIPT_FILENAME \$document_root\$fastcgi_script_name;
+	}
+}
+
+]]></content>
+	<tabTrigger>laravel</tabTrigger>
+	<scope>source.nginx</scope>
+	<description> ⌘ Nginx Server For Laravel</description>
+</snippet>

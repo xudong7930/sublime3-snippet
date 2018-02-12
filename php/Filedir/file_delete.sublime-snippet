@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+unlink('${1:path_to_file}');
+]]></content>
+	<tabTrigger>file_delete</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ PHP文件删除,返回Bool </description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+sublime snippet
+]]></content>
+	<tabTrigger>hello</tabTrigger>
+	<scope>source.php, text.html, text.plain</scope>
+	<description> ⌘ Sublime Snippet You Have Never Used This!!! Go Go Go</description>
+</snippet>

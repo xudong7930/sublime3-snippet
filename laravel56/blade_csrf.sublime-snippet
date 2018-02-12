@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@csrf
+]]></content>
+	<tabTrigger>bl_csrf</tabTrigger>
+	<scope>source.php, text.html</scope>
+	<description> ⌘ Laravel5.6 Blade CSRF Field</description>
+</snippet>

@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\$result = explode('${1:分隔符}', ${2:Array});
+explode('${1:分隔符}', ${2:Array})
 ]]></content>
 	<tabTrigger>str_explode</tabTrigger>
 	<scope>source.php</scope>

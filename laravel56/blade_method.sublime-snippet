@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@method('${1:PUT}')
+]]></content>
+	<tabTrigger>bl_method</tabTrigger>
+	<scope>source.php, text.html</scope>
+	<description> ⌘ Laravel5.6 Blade Form Method</description>
+</snippet>
