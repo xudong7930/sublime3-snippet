@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\$this->app->singleton('${1}', function () {
+	return new ${2:Model}('15811448243');
+});
+]]></content>
+	<tabTrigger>app_singleton</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ App Singleton $this</description>
+</snippet>

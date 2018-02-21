@@ -3,6 +3,7 @@
 app()->bind('${1}', function () {
 	return new ${2:Model}('15811448243');
 });
+
 ]]></content>
     <tabTrigger>app_bind</tabTrigger>
     <scope>source.php</scope>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$this->loadRoutesFrom(__DIR__ . '/${1:routes.php}');
+]]></content>
+	<tabTrigger>pkg_load</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ LalPackage Load Route</description>
+</snippet>

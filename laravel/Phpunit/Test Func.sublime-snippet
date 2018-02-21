@@ -1,12 +1,11 @@
 <snippet>
     <content><![CDATA[
-/** @test */
-public function ${1:a_product_can_set_name}()
+/* @test */
+public function test_${1:a_product_can_set_name}()
 {
     ${2}
     \$this->assertTrue(true);
 }
-
 
 ]]></content>
      <tabTrigger>test_func</tabTrigger>

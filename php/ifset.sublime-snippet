@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+if (isset(${1})) {
+	${2}
+}
+]]></content>
+	<tabTrigger>ifset</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ if isset</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+"xudong7930\\${1:PackageName}\\": "packages/xudong7930/${1:PackageName}/src",
+]]></content>
+	<tabTrigger>load_package</tabTrigger>
+	<scope>source.json</scope>
+	<description> ⌘ Load Local Package In PSR4</description>
+</snippet>

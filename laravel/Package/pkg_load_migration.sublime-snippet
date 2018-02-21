@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$this->loadMigrationsFrom("${1}/migrations");
+]]></content>
+	<tabTrigger>pkg_load</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ LalPackage Load Miration</description>
+</snippet>

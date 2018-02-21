@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+/*
+|--------------------------------------------------------------------------
+| ${1:Authentication Defaults}
+|--------------------------------------------------------------------------
+|
+|${2: This option controls the default authentication "guard" and password}
+|
+*/
+]]></content>
+	<tabTrigger>/***</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ Laravel Config.php Comment</description>
+</snippet>

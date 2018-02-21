@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
 
-namespace App\Acme\\${1:Repository};
+namespace ${1:App\Acme\Repository};
 
-class ${2:UserRespository} ${3:extends } ${4:implements }
+class ${2:UserRespository} ${3:extends|implements}
 {
     ${5}
 }

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$this->assert${1:Not}Same(${2}, ${3});
+]]></content>
+	<tabTrigger>assert_same</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ Assert Object NotSame</description>
+</snippet>

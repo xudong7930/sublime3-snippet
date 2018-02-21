@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+"extra": {
+    "laravel": {
+        "providers": {
+            "${1:xudong7930\\Survey\\SurveyServiceProvider}"
+        },
+        "aliases": {
+            {2:"Survey": "xudong7930\\Survey\\Facades\\Survey.php"}
+        }
+    }
+}
+]]></content>
+	<tabTrigger>load_extra</tabTrigger>
+	<scope>source.json</scope>
+	<description> ⌘ Laravel Package Extra With Autodiscover</description>
+</snippet>

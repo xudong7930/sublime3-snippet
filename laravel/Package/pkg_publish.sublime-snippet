@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+\$this->publishes([
+	${2:__DIR__.'/../config/suvey.php' => config_path('survey.php')}
+], "${1:pkgname-part}");
+
+]]></content>
+	<tabTrigger>pkg_publish</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ LalPackage Pubish Files</description>
+</snippet>

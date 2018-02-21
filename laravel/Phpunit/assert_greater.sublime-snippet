@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$this->assertGreaterThan${1:OrEqual}(${2}, ${3});
+]]></content>
+	<tabTrigger>assert_greater</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ Assert Greater Than</description>
+</snippet>
