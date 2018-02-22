@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+protected \$${1};
+]]></content>
+	<tabTrigger>pc</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ class attr protected </description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+private \$${1};
+]]></content>
+	<tabTrigger>pv</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ class attr private</description>
+</snippet>

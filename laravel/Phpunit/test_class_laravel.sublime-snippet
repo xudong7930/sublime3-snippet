@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+
+namespace Tests\Unit;
+
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+
+class ${1}Test extends TestCase
+{
+    ${2}
+}
+
+]]></content>
+     <tabTrigger>test_class</tabTrigger>
+     <scope>source.php</scope>
+     <description> ⌘ Test Class For Laravel</description>
+</snippet>

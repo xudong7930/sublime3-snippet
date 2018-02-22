@@ -2,6 +2,7 @@
     <content><![CDATA[
 public function setUp()
 {
+	parent::setUp();
     ${2}
 }
 
