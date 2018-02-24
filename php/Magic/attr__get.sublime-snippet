@@ -14,7 +14,7 @@ public function __get(\$property)
 
 
 ]]></content>
-	<tabTrigger>magic</tabTrigger>
+	<tabTrigger>magic_get</tabTrigger>
 	<scope>source.php</scope>
 	<description> ⌘ __GET Magic Method </description>
 </snippet>

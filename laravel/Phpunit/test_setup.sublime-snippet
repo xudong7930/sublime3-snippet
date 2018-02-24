@@ -9,4 +9,5 @@ public function setUp()
 ]]></content>
      <tabTrigger>test_setup</tabTrigger>
      <scope>source.php</scope>
+     <description> ⌘ Test SetUp</description>
 </snippet>

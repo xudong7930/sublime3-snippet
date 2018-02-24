@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+implements 
+]]></content>
+	<tabTrigger>imp</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ reserve implements </description>
+</snippet>

@@ -1,7 +1,8 @@
 <snippet>
 	<content><![CDATA[
-array_walk(${1:[]}, function (${2:\$item}) {
-    ${3: //operate each item}
+array_walk(${1:[]}, function (${2:\$item}, \$key) {
+    echo $key . '=>' . $item . PHP_EOL;
+    ${3}
 });
 ]]></content>
 	<tabTrigger>arr_walk</tabTrigger>

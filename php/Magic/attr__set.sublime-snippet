@@ -11,7 +11,7 @@ public function __set(\$property, \$value)
 }
 
 ]]></content>
-	<tabTrigger>magic</tabTrigger>
+	<tabTrigger>magic_set</tabTrigger>
 	<scope>source.php</scope>
 	<description> ⌘ __SET Magic Method </description>
 </snippet>

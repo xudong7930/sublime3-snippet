@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-/* @test */
+/** @test */
 public function test_${1:a_product_can_set_name}()
 {
     ${2}
@@ -10,4 +10,5 @@ public function test_${1:a_product_can_set_name}()
 ]]></content>
      <tabTrigger>test_func</tabTrigger>
      <scope>source.php</scope>
+     <description> ⌘ Test Func</description>
 </snippet>
