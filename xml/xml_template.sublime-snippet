@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<${1:item}>${2}</${1:item}>
+]]></content>
+	<tabTrigger>xii</tabTrigger>
+	<scope>text.xml</scope>
+	<description> ⌘ XML Item</description>
+</snippet>

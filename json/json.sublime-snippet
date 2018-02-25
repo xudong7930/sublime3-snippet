@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+"${1}": ${2:"foobar"|3.14|[]|{\}|true|null},
+]]></content>
+	<tabTrigger>jii</tabTrigger>
+	<scope>source.json</scope>
+	<description> ⌘ Json Item</description>
+</snippet>
