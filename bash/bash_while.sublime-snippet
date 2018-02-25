@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+while ${1:true}; do
+	${2}
+done
+]]></content>
+	<tabTrigger>bash_while</tabTrigger>
+	<scope>source.shell</scope>
+	<description> ⌘ Bash While Loop</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+for i in {${1:1..5}}; do
+	${2}
+done
+]]></content>
+	<tabTrigger>bash_for</tabTrigger>
+	<scope>source.shell</scope>
+	<description> ⌘ Bash for-in</description>
+</snippet>

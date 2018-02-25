@@ -1,0 +1,38 @@
+<snippet>
+	<content><![CDATA[
+#!/usr/bin/env bash
+#
+# ${1: this file functional description, you should rewrite this line.}
+
+# export PATH='/usr/bin'
+
+set -e
+
+usage() {
+	cat << EOT
+Usage: youtube-dl [OPTIONS] URL [URL...]
+
+Mandatory arguments to long options are mandatory for short options too.
+
+Options:
+	-V, --version		display the version of Wget and exit.	
+	-H, --help			print this help.
+
+EOT
+}
+
+die() {
+	echo "\${0##*/}: error: \$*" >&2
+	exit 1
+}
+
+main() {
+	usage
+}
+
+main "\$@"
+]]></content>
+	<tabTrigger>bash_template</tabTrigger>
+	<scope>source.shell</scope>
+	<description> ⌘ Bash脚本模板</description>
+</snippet>

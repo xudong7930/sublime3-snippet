@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+SELF_DIR=$(cd \$(dirname \$0) && pwd)
+]]></content>
+	<tabTrigger>bash_pwd</tabTrigger>
+	<scope>source.shell</scope>
+	<description> ⌘ Bash当前目录</description>
+</snippet>

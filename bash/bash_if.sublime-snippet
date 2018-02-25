@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+if ${1:true}; then
+	${2}
+elif true; then
+
+else
+
+fi
+
+]]></content>
+	<tabTrigger>bash_if</tabTrigger>
+	<scope>source.shell</scope>
+	<description> ⌘ Bash if-else-if</description>
+</snippet>

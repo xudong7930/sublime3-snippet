@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+${1:snake_case}=${2:"barfoo \${now\}"|'sbjsw'|3.14|true|\$(date +"%Y")}
+]]></content>
+	<tabTrigger>bash_var</tabTrigger>
+	<scope>source.shell</scope>
+	<description> ⌘ Bash Var</description>
+</snippet>

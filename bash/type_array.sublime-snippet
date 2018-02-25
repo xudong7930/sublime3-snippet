@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${1:name}=(${2:item1 item2})
+name[3]="sb"
+]]></content>
+	<tabTrigger>bash_arr</tabTrigger>
+	<scope>source.shell</scope>
+	<description> ⌘ Bash Array</description>
+</snippet>

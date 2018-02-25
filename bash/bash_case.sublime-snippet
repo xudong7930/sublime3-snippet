@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+case \$a in
+dog|cat)
+	echo "some"
+*)
+	echo "some"
+esac
+]]></content>
+	<tabTrigger>bash_case</tabTrigger>
+	<scope>source.shell</scope>
+	<description> ⌘ Bash Case语句</description>
+</snippet>

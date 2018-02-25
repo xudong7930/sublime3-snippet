@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+${1:func_name}() {
+	local -i counter=1
+	local -a args
+	local file_content=\$(cat \$1)
+	local flag=\$2
+	local item="some item"
+	${2}
+	return 0|1
+}
+
+]]></content>
+	<tabTrigger>func</tabTrigger>
+	<scope>source.shell</scope>
+	<description> ⌘ Bash Function</description>
+</snippet>

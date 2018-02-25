@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+readonly ${2:TOP_DIR}="/app/php"
+]]></content>
+	<tabTrigger>bash_const</tabTrigger>
+	<scope>source.shell</scope>
+	<description> ⌘ Bash const var</description>
+</snippet>

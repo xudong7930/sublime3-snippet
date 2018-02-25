@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$(date +"%Y-%m-%d %H:%M:%S")
+]]></content>
+	<tabTrigger>bash_date</tabTrigger>
+	<scope>source.shell</scope>
+	<description> ⌘ Bash时间日期</description>
+</snippet>

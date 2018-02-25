@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+##
+# ${1:This function probes a tcp port by trying}
+# 
+# Arguments:
+#   \$1 filename.php${2}
+# Returns:
+#   None${3}
+# TODO: implement an udp version
+##
+]]></content>
+	<tabTrigger>bash_comment</tabTrigger>
+	<scope>source.shell</scope>
+	<description> ⌘ Bash注释</description>
+</snippet>

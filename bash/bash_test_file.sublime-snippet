@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+[[ -f_普通文件|-d_目录|-rwx_文件可读写执行|-e_文件目录存在 ${1} ]]
+]]></content>
+	<tabTrigger>bash_test</tabTrigger>
+	<scope>source.shell</scope>
+	<description> ⌘ Bash文件测试</description>
+</snippet>

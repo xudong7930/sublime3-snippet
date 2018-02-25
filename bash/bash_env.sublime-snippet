@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+#!/usr/bin/env bash
+#
+# ${1:Perform hot backups of Oracle databases.}
+
+${2}
+]]></content>
+	<tabTrigger>bash_env</tabTrigger>
+	<scope>source.shell</scope>
+	<description> ⌘ Bash Env</description>
+</snippet>
