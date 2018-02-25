@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+`${1:id}` int(11z) unsigned NOT NULL AUTO_INCREMENT,
+]]></content>
+	<tabTrigger>fd_id</tabTrigger>
+	<scope>source.sql</scope>
+	<description> ⌘ table field id</description>
+</snippet>

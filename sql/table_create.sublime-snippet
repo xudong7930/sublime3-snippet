@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+CREATE TABLE `${1:table}` (
+	${3}
+) ENGINE=${2:InnoDB|MyISAM} DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+]]></content>
+	<tabTrigger>table_create</tabTrigger>
+	<scope>source.sql</scope>
+	<description> ⌘ 创建表</description>
+</snippet>

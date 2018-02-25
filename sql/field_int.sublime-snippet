@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+`${1}` int(${2:11}) NOT NULL DEFAULT '0' COMMENT '${3:字段注释}',
+]]></content>
+	<tabTrigger>fd_int</tabTrigger>
+	<scope>source.sql</scope>
+	<description> ⌘ table field int</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+DROP TABLE IF EXISTS `${1:table_name}`;
+]]></content>
+	<tabTrigger>sql_del</tabTrigger>
+	<scope>source.sql</scope>
+	<description> ⌘ drop table</description>
+</snippet>
