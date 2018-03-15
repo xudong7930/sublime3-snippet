@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+preg_match("/${1:正则}/im", ${2:\$input_string}, ${3:\$output_array});
+]]></content>
+	<tabTrigger>preg_match</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ 字符串正则,匹配一次</description>
+</snippet>

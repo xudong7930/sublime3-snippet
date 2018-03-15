@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$s = preg_grep("/${1:正则}/", $input_array);
+]]></content>
+	<tabTrigger>preg_grep</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ 数组正则,将匹配到的结果保存,返回新数组</description>
+</snippet>
