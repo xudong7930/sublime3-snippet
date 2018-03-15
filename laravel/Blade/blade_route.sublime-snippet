@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+{{ route('${1}', []) }}
+]]></content>
+	<tabTrigger>bl_route</tabTrigger>
+	<scope>source.php, text.html</scope>
+	<description> ⌘ Blade Route Url</description>
+</snippet>

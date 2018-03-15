@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+if (${1:!}in_array(${2}, ${3})) {
+	${4}
+}
+
+]]></content>
+	<tabTrigger>ifin</tabTrigger>
+	<scope>source.php</scope>
+	<description> ⌘ if_in-array</description>
+</snippet>

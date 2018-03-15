@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-\$this->assertTrue(${1:true});
+\$this->assert${1:True}(${2:true});
 ]]></content>
      <tabTrigger>assert_true</tabTrigger>
      <scope>source.php</scope>

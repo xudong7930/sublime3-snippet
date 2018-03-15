@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-\$object = new stdClass;
+\$object = new \stdClass;
 ]]></content>
      <tabTrigger>class_std</tabTrigger>
      <scope>source.php</scope>
