@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-<form class="form-horizontal" method="POST" action="{{ route('post.create') }}">
+<form class="form-horizontal" method="POST" action="{{ route('post.store') }}">
     {{ csrf_field() }}
     {{ method_field('POST') }}
     <div class="form-group">

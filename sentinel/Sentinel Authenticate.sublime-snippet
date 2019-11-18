@@ -1,9 +1,0 @@
-<snippet>
-    <content><![CDATA[
-if (\$auth = Sentinel::authenticate(${1:credential}, ${2:false})) {
-    ${3}
-}
-]]></content>
-    <tabTrigger>sentinel_auth</tabTrigger>
-    <scope>source.php</scope>
-</snippet>

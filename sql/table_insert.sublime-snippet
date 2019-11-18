@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-INSERT INTO `${1:table}` (`${2:field}`,) VALUES(${3:value});
-]]></content>
-	<tabTrigger>sql_insert</tabTrigger>
-	<scope>source.sql</scope>
-	<description> ⌘ table insert</description>
-</snippet>

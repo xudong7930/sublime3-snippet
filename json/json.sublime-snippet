@@ -2,7 +2,7 @@
 	<content><![CDATA[
 "${1}": ${2:"foobar"|3.14|[]|{\}|true|null},
 ]]></content>
-	<tabTrigger>jii</tabTrigger>
+	<tabTrigger>json.item</tabTrigger>
 	<scope>source.json</scope>
 	<description> ⌘ Json Item</description>
 </snippet>

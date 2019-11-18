@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+JSON_UNESCAPED_UNICODE
+]]></content >
+  <description>JSON中文转义</description>
+  <tabTrigger>json.unescape</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope >source.python</scope > -->
+</snippet >

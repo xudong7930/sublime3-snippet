@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-use GuzzleHttp\Client;
-\$client = new Client(['base_uri'=>'${1}', 'timeout'=>3.14]);
-]]></content>
-    <tabTrigger>guzzle_client</tabTrigger>
-    <scope>source.php</scope>
-</snippet>

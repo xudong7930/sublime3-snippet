@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+date('Y-m-d H:i:s', ${1:time()});
+]]></content >
+  <description>当期日期</description>
+  <tabTrigger>time.current_date</tabTrigger>
+  <scope>source.php, text.html, text.plain</scope>
+</snippet >

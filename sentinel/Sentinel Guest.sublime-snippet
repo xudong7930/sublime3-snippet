@@ -1,9 +1,0 @@
-<snippet>
-    <content><![CDATA[
-if (Sentinel::guest()) {
-    ${1}
-}
-]]></content>
-    <tabTrigger>sentinel_guest</tabTrigger>
-    <scope>source.php</scope>
-</snippet>

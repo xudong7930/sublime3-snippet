@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+echo "<pre>";var_dump(${1});die;
+]]></content >
+  <description>var_dump打印</description>
+  <tabTrigger>dump.var_dump</tabTrigger>
+  <!-- <scope >source.php</scope > -->
+</snippet >
